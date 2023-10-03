@@ -2,4 +2,132 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1100mV 85C Model Setup 'debouncer:inst15|out_key'
+Slack : -6.631
+TNS   : -113.947
+
+Type  : Slow 1100mV 85C Model Setup 'CLKPLACA'
+Slack : -5.017
+TNS   : -40.857
+
+Type  : Slow 1100mV 85C Model Hold 'CLKPLACA'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'debouncer:inst15|out_key'
+Slack : 0.737
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'debouncer:inst15|out_key'
+Slack : -5.103
+TNS   : -70.934
+
+Type  : Slow 1100mV 85C Model Removal 'debouncer:inst15|out_key'
+Slack : 1.900
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'debouncer:inst15|out_key'
+Slack : -2.636
+TNS   : -50.940
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLKPLACA'
+Slack : -0.538
+TNS   : -14.163
+
+Type  : Slow 1100mV 0C Model Setup 'debouncer:inst15|out_key'
+Slack : -6.830
+TNS   : -115.470
+
+Type  : Slow 1100mV 0C Model Setup 'CLKPLACA'
+Slack : -5.096
+TNS   : -38.096
+
+Type  : Slow 1100mV 0C Model Hold 'CLKPLACA'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'debouncer:inst15|out_key'
+Slack : 0.649
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'debouncer:inst15|out_key'
+Slack : -5.260
+TNS   : -71.876
+
+Type  : Slow 1100mV 0C Model Removal 'debouncer:inst15|out_key'
+Slack : 1.977
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'debouncer:inst15|out_key'
+Slack : -2.636
+TNS   : -50.842
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLKPLACA'
+Slack : -0.538
+TNS   : -14.206
+
+Type  : Fast 1100mV 85C Model Setup 'debouncer:inst15|out_key'
+Slack : -3.212
+TNS   : -54.352
+
+Type  : Fast 1100mV 85C Model Setup 'CLKPLACA'
+Slack : -2.823
+TNS   : -14.199
+
+Type  : Fast 1100mV 85C Model Hold 'CLKPLACA'
+Slack : 0.198
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'debouncer:inst15|out_key'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'debouncer:inst15|out_key'
+Slack : -2.366
+TNS   : -33.803
+
+Type  : Fast 1100mV 85C Model Removal 'debouncer:inst15|out_key'
+Slack : 1.039
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'debouncer:inst15|out_key'
+Slack : -2.174
+TNS   : -30.912
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLKPLACA'
+Slack : -0.350
+TNS   : -1.978
+
+Type  : Fast 1100mV 0C Model Setup 'debouncer:inst15|out_key'
+Slack : -3.035
+TNS   : -51.038
+
+Type  : Fast 1100mV 0C Model Setup 'CLKPLACA'
+Slack : -2.445
+TNS   : -11.189
+
+Type  : Fast 1100mV 0C Model Hold 'CLKPLACA'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'debouncer:inst15|out_key'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'debouncer:inst15|out_key'
+Slack : -2.259
+TNS   : -32.283
+
+Type  : Fast 1100mV 0C Model Removal 'debouncer:inst15|out_key'
+Slack : 1.030
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'debouncer:inst15|out_key'
+Slack : -2.174
+TNS   : -30.836
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLKPLACA'
+Slack : -0.344
+TNS   : -1.995
+
 ------------------------------------------------------------

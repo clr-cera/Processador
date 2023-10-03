@@ -2,7 +2,188 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "toptopreg1",
+					"strict" : false
+				},
+				{
+					"name" : "toprightreg1",
+					"strict" : false
+				},
+				{
+					"name" : "botrightreg1",
+					"strict" : false
+				},
+				{
+					"name" : "botbotreg1",
+					"strict" : false
+				},
+				{
+					"name" : "botleftreg1",
+					"strict" : false
+				},
+				{
+					"name" : "topleftreg1",
+					"strict" : false
+				},
+				{
+					"name" : "midreg1",
+					"strict" : false
+				},
+				{
+					"name" : "toprightreg2",
+					"strict" : false
+				},
+				{
+					"name" : "botrightreg2",
+					"strict" : false
+				},
+				{
+					"name" : "botbotreg2",
+					"strict" : false
+				},
+				{
+					"name" : "botleftreg2",
+					"strict" : false
+				},
+				{
+					"name" : "topleftreg2",
+					"strict" : false
+				},
+				{
+					"name" : "midreg2",
+					"strict" : false
+				},
+				{
+					"name" : "toptopreg2",
+					"strict" : false
+				},
+				{
+					"name" : "toptopmem0",
+					"strict" : false
+				},
+				{
+					"name" : "toprightmem0",
+					"strict" : false
+				},
+				{
+					"name" : "botrightmem0",
+					"strict" : false
+				},
+				{
+					"name" : "botbotmem0",
+					"strict" : false
+				},
+				{
+					"name" : "botleftmem0",
+					"strict" : false
+				},
+				{
+					"name" : "topleftmem0",
+					"strict" : false
+				},
+				{
+					"name" : "midmem0",
+					"strict" : false
+				},
+				{
+					"name" : "toptopmem1",
+					"strict" : false
+				},
+				{
+					"name" : "toprightmem1",
+					"strict" : false
+				},
+				{
+					"name" : "botrightmem1",
+					"strict" : false
+				},
+				{
+					"name" : "botbotmem1",
+					"strict" : false
+				},
+				{
+					"name" : "botleftmem1",
+					"strict" : false
+				},
+				{
+					"name" : "midmem1",
+					"strict" : false
+				},
+				{
+					"name" : "toptopmem2",
+					"strict" : false
+				},
+				{
+					"name" : "toprightmem2",
+					"strict" : false
+				},
+				{
+					"name" : "botrightmem2",
+					"strict" : false
+				},
+				{
+					"name" : "botbotmem2",
+					"strict" : false
+				},
+				{
+					"name" : "botleftmem2",
+					"strict" : false
+				},
+				{
+					"name" : "midmem2",
+					"strict" : false
+				},
+				{
+					"name" : "toptopmem3",
+					"strict" : false
+				},
+				{
+					"name" : "toprightmem3",
+					"strict" : false
+				},
+				{
+					"name" : "botrightmem3",
+					"strict" : false
+				},
+				{
+					"name" : "botbotmem3",
+					"strict" : false
+				},
+				{
+					"name" : "botleftmem3",
+					"strict" : false
+				},
+				{
+					"name" : "topleftmem3",
+					"strict" : false
+				},
+				{
+					"name" : "midmem3",
+					"strict" : false
+				},
+				{
+					"name" : "topleftmem1",
+					"strict" : false
+				},
+				{
+					"name" : "topleftmem2",
+					"strict" : false
+				},
+				{
+					"name" : "MASTER_RESET",
+					"strict" : false
+				},
+				{
+					"name" : "CLKBUTTON",
+					"strict" : false
+				},
+				{
+					"name" : "CLKPLACA",
+					"strict" : false
+				}
+			]
 		}
 	]
 }

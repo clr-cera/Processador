@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Tue Oct  3 13:12:29 2023
+Analysis & Synthesis Status : Successful - Tue Oct  3 14:20:10 2023
 Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : tricolor
 Top-level Entity Name : tricolor
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
-Total pins : 2
+Total registers : 34
+Total pins : 53
 Total virtual pins : 0
-Total block memory bits : 0
+Total block memory bits : 4,096
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
