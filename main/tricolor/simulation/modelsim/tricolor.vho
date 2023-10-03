@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition"
 
--- DATE "10/03/2023 15:01:03"
+-- DATE "10/03/2023 15:19:27"
 
 -- 
 -- Device: Altera 5CEBA4F23C7 Package FBGA484
@@ -219,8 +219,8 @@ SIGNAL ww_counter1 : std_logic;
 SIGNAL ww_counter0 : std_logic;
 SIGNAL ww_jumpled : std_logic;
 SIGNAL ww_clkled : std_logic;
-SIGNAL \inst|altsyncram_component|auto_generated|ram_block1a0_PORTAADDR_bus\ : std_logic_vector(7 DOWNTO 0);
-SIGNAL \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\ : std_logic_vector(19 DOWNTO 0);
+SIGNAL \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTAADDR_bus\ : std_logic_vector(7 DOWNTO 0);
+SIGNAL \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\ : std_logic_vector(19 DOWNTO 0);
 SIGNAL \~QUARTUS_CREATED_GND~I_combout\ : std_logic;
 SIGNAL \CLKPLACA~input_o\ : std_logic;
 SIGNAL \CLKPLACA~inputCLKENA0_outclk\ : std_logic;
@@ -374,7 +374,7 @@ SIGNAL \inst11|inst64~0_combout\ : std_logic;
 SIGNAL \inst13|inst62~0_combout\ : std_logic;
 SIGNAL \inst12|inst62~0_combout\ : std_logic;
 SIGNAL \inst2|inst7~0_combout\ : std_logic;
-SIGNAL \inst|altsyncram_component|auto_generated|q_a\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst16|altsyncram_component|auto_generated|q_a\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \inst15|counter\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \inst14|ALT_INV_inst64~0_combout\ : std_logic;
 SIGNAL \inst10|ALT_INV_inst64~0_combout\ : std_logic;
@@ -388,7 +388,7 @@ SIGNAL \inst3|ALT_INV_inst1~q\ : std_logic;
 SIGNAL \inst3|ALT_INV_inst2~q\ : std_logic;
 SIGNAL \inst3|ALT_INV_inst3~q\ : std_logic;
 SIGNAL \inst15|ALT_INV_counter\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \inst|altsyncram_component|auto_generated|ALT_INV_q_a\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \ALT_INV_CLKBUTTON~input_o\ : std_logic;
 SIGNAL \ALT_INV_MASTER_RESET~input_o\ : std_logic;
 SIGNAL \inst1|ALT_INV_inst3183278~1_combout\ : std_logic;
@@ -505,25 +505,25 @@ ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 
-\inst|altsyncram_component|auto_generated|ram_block1a0_PORTAADDR_bus\ <= (\inst1|inst13~q\ & \inst1|inst11~q\ & \inst1|inst9~q\ & \inst1|inst7~q\ & \inst1|inst5~2_combout\ & \inst1|inst3~2_combout\ & \inst1|inst1~2_combout\ & \inst1|inst3183278~2_combout\
-);
+\inst16|altsyncram_component|auto_generated|ram_block1a0_PORTAADDR_bus\ <= (\inst1|inst13~q\ & \inst1|inst11~q\ & \inst1|inst9~q\ & \inst1|inst7~q\ & \inst1|inst5~2_combout\ & \inst1|inst3~2_combout\ & \inst1|inst1~2_combout\ & 
+\inst1|inst3183278~2_combout\);
 
-\inst|altsyncram_component|auto_generated|q_a\(0) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(0);
-\inst|altsyncram_component|auto_generated|q_a\(1) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(1);
-\inst|altsyncram_component|auto_generated|q_a\(2) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(2);
-\inst|altsyncram_component|auto_generated|q_a\(3) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(3);
-\inst|altsyncram_component|auto_generated|q_a\(4) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(4);
-\inst|altsyncram_component|auto_generated|q_a\(5) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(5);
-\inst|altsyncram_component|auto_generated|q_a\(6) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(6);
-\inst|altsyncram_component|auto_generated|q_a\(7) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(7);
-\inst|altsyncram_component|auto_generated|q_a\(8) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(8);
-\inst|altsyncram_component|auto_generated|q_a\(9) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(9);
-\inst|altsyncram_component|auto_generated|q_a\(10) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(10);
-\inst|altsyncram_component|auto_generated|q_a\(11) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(11);
-\inst|altsyncram_component|auto_generated|q_a\(12) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(12);
-\inst|altsyncram_component|auto_generated|q_a\(13) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(13);
-\inst|altsyncram_component|auto_generated|q_a\(14) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(14);
-\inst|altsyncram_component|auto_generated|q_a\(15) <= \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(15);
+\inst16|altsyncram_component|auto_generated|q_a\(0) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(0);
+\inst16|altsyncram_component|auto_generated|q_a\(1) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(1);
+\inst16|altsyncram_component|auto_generated|q_a\(2) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(2);
+\inst16|altsyncram_component|auto_generated|q_a\(3) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(3);
+\inst16|altsyncram_component|auto_generated|q_a\(4) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(4);
+\inst16|altsyncram_component|auto_generated|q_a\(5) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(5);
+\inst16|altsyncram_component|auto_generated|q_a\(6) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(6);
+\inst16|altsyncram_component|auto_generated|q_a\(7) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(7);
+\inst16|altsyncram_component|auto_generated|q_a\(8) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(8);
+\inst16|altsyncram_component|auto_generated|q_a\(9) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(9);
+\inst16|altsyncram_component|auto_generated|q_a\(10) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(10);
+\inst16|altsyncram_component|auto_generated|q_a\(11) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(11);
+\inst16|altsyncram_component|auto_generated|q_a\(12) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(12);
+\inst16|altsyncram_component|auto_generated|q_a\(13) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(13);
+\inst16|altsyncram_component|auto_generated|q_a\(14) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(14);
+\inst16|altsyncram_component|auto_generated|q_a\(15) <= \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\(15);
 \inst14|ALT_INV_inst64~0_combout\ <= NOT \inst14|inst64~0_combout\;
 \inst10|ALT_INV_inst64~0_combout\ <= NOT \inst10|inst64~0_combout\;
 \inst4|ALT_INV_inst~q\ <= NOT \inst4|inst~q\;
@@ -551,22 +551,22 @@ ww_devpor <= devpor;
 \inst15|ALT_INV_counter\(5) <= NOT \inst15|counter\(5);
 \inst15|ALT_INV_counter\(6) <= NOT \inst15|counter\(6);
 \inst15|ALT_INV_counter\(7) <= NOT \inst15|counter\(7);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1) <= NOT \inst|altsyncram_component|auto_generated|q_a\(1);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2) <= NOT \inst|altsyncram_component|auto_generated|q_a\(2);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3) <= NOT \inst|altsyncram_component|auto_generated|q_a\(3);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4) <= NOT \inst|altsyncram_component|auto_generated|q_a\(4);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5) <= NOT \inst|altsyncram_component|auto_generated|q_a\(5);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6) <= NOT \inst|altsyncram_component|auto_generated|q_a\(6);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7) <= NOT \inst|altsyncram_component|auto_generated|q_a\(7);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8) <= NOT \inst|altsyncram_component|auto_generated|q_a\(8);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9) <= NOT \inst|altsyncram_component|auto_generated|q_a\(9);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10) <= NOT \inst|altsyncram_component|auto_generated|q_a\(10);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11) <= NOT \inst|altsyncram_component|auto_generated|q_a\(11);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12) <= NOT \inst|altsyncram_component|auto_generated|q_a\(12);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13) <= NOT \inst|altsyncram_component|auto_generated|q_a\(13);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14) <= NOT \inst|altsyncram_component|auto_generated|q_a\(14);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15) <= NOT \inst|altsyncram_component|auto_generated|q_a\(15);
-\inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0) <= NOT \inst|altsyncram_component|auto_generated|q_a\(0);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(1);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(2);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(3);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(4);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(5);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(6);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(7);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(8);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(9);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(10);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(11);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(12);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(13);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(14);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(15);
+\inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0) <= NOT \inst16|altsyncram_component|auto_generated|q_a\(0);
 \ALT_INV_CLKBUTTON~input_o\ <= NOT \CLKBUTTON~input_o\;
 \ALT_INV_MASTER_RESET~input_o\ <= NOT \MASTER_RESET~input_o\;
 \inst1|ALT_INV_inst3183278~1_combout\ <= NOT \inst1|inst3183278~1_combout\;
@@ -2190,17 +2190,17 @@ PORT MAP (
 	q => \inst1|inst13~q\);
 
 -- Location: M10K_X38_Y3_N0
-\inst|altsyncram_component|auto_generated|ram_block1a0\ : cyclonev_ram_block
+\inst16|altsyncram_component|auto_generated|ram_block1a0\ : cyclonev_ram_block
 -- pragma translate_off
 GENERIC MAP (
 	mem_init2 => "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
 	mem_init1 => "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-	mem_init0 => "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080006001062000930206102063020900209001060010040000000000000000000C0806304062020910106005",
+	mem_init0 => "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000600306200093020610106302090020000000000000000000000C0D0040009003060020900206305062010910206004",
 	data_interleave_offset_in_bits => 1,
 	data_interleave_width_in_bits => 1,
-	init_file => "../Mem01.mif",
+	init_file => "../../ROM/Mem02.mif",
 	init_file_layout => "port_a",
-	logical_ram_name => "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ALTSYNCRAM",
+	logical_ram_name => "rom2:inst16|altsyncram:altsyncram_component|altsyncram_8kg1:auto_generated|ALTSYNCRAM",
 	operation_mode => "rom",
 	port_a_address_clear => "none",
 	port_a_address_width => 8,
@@ -2222,15 +2222,15 @@ GENERIC MAP (
 PORT MAP (
 	portare => VCC,
 	clk0 => \inst15|out_key~q\,
-	portaaddr => \inst|altsyncram_component|auto_generated|ram_block1a0_PORTAADDR_bus\,
+	portaaddr => \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTAADDR_bus\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	portadataout => \inst|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\);
+	portadataout => \inst16|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus\);
 
 -- Location: LABCELL_X40_Y3_N57
 inst8 : cyclonev_lcell_comb
 -- Equation(s):
--- \inst8~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( \MASTER_RESET~input_o\ ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
+-- \inst8~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( \MASTER_RESET~input_o\ ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2240,8 +2240,8 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_MASTER_RESET~input_o\,
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst8~combout\);
 
 -- Location: FF_X39_Y3_N47
@@ -2263,7 +2263,7 @@ PORT MAP (
 -- Location: LABCELL_X39_Y3_N57
 \inst1|inst16|inst\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst16|inst~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(11) & \inst|altsyncram_component|auto_generated|q_a\(3)) ) )
+-- \inst1|inst16|inst~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11) & \inst16|altsyncram_component|auto_generated|q_a\(3)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2272,16 +2272,16 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst1|inst16|inst~combout\);
 
 -- Location: LABCELL_X39_Y3_N6
 \inst1|inst16|inst1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst16|inst1~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( ((!\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(11))) # (\MASTER_RESET~input_o\) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
+-- \inst1|inst16|inst1~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(11))) # (\MASTER_RESET~input_o\) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2291,9 +2291,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \ALT_INV_MASTER_RESET~input_o\,
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst1|inst16|inst1~combout\);
 
 -- Location: LABCELL_X40_Y3_N27
@@ -2399,7 +2399,7 @@ PORT MAP (
 -- Location: LABCELL_X39_Y3_N33
 \inst1|inst15|inst\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst15|inst~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(2) & \inst|altsyncram_component|auto_generated|q_a\(11)) ) )
+-- \inst1|inst15|inst~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(2) & \inst16|altsyncram_component|auto_generated|q_a\(11)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2408,16 +2408,16 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst1|inst15|inst~combout\);
 
 -- Location: LABCELL_X39_Y3_N15
 \inst1|inst15|inst1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst15|inst1~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(2) & ( ((!\inst|altsyncram_component|auto_generated|q_a\(10) & \inst|altsyncram_component|auto_generated|q_a\(11))) # (\MASTER_RESET~input_o\) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(2) & ( (\inst|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
+-- \inst1|inst15|inst1~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(2) & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(10) & \inst16|altsyncram_component|auto_generated|q_a\(11))) # (\MASTER_RESET~input_o\) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2427,9 +2427,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_MASTER_RESET~input_o\,
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
 	combout => \inst1|inst15|inst1~combout\);
 
 -- Location: LABCELL_X40_Y3_N9
@@ -2520,7 +2520,7 @@ PORT MAP (
 -- Location: LABCELL_X39_Y3_N39
 \inst1|inst14|inst\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst14|inst~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(11) & \inst|altsyncram_component|auto_generated|q_a\(1)) ) )
+-- \inst1|inst14|inst~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11) & \inst16|altsyncram_component|auto_generated|q_a\(1)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2529,16 +2529,16 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst1|inst14|inst~combout\);
 
 -- Location: LABCELL_X39_Y3_N18
 \inst1|inst14|inst1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst14|inst1~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( ((!\inst|altsyncram_component|auto_generated|q_a\(1) & \inst|altsyncram_component|auto_generated|q_a\(11))) # (\MASTER_RESET~input_o\) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
+-- \inst1|inst14|inst1~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(1) & \inst16|altsyncram_component|auto_generated|q_a\(11))) # (\MASTER_RESET~input_o\) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11)) # (\MASTER_RESET~input_o\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2548,9 +2548,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \ALT_INV_MASTER_RESET~input_o\,
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst1|inst14|inst1~combout\);
 
 -- Location: LABCELL_X40_Y3_N12
@@ -2655,7 +2655,7 @@ PORT MAP (
 -- Location: LABCELL_X39_Y3_N0
 \inst1|inst|inst\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst|inst~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(0) & \inst|altsyncram_component|auto_generated|q_a\(11)) ) )
+-- \inst1|inst|inst~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(0) & \inst16|altsyncram_component|auto_generated|q_a\(11)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2664,16 +2664,16 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst1|inst|inst~combout\);
 
 -- Location: MLABCELL_X37_Y3_N33
 \inst1|inst|inst1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst1|inst|inst1~combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(11) & ( ((!\inst|altsyncram_component|auto_generated|q_a\(10)) # (!\inst|altsyncram_component|auto_generated|q_a\(0))) # (\MASTER_RESET~input_o\) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(11) & ( \MASTER_RESET~input_o\ ) )
+-- \inst1|inst|inst1~combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(11) & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(10)) # (!\inst16|altsyncram_component|auto_generated|q_a\(0))) # (\MASTER_RESET~input_o\) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(11) & ( \MASTER_RESET~input_o\ ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2683,9 +2683,9 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \ALT_INV_MASTER_RESET~input_o\,
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
 	combout => \inst1|inst|inst1~combout\);
 
 -- Location: LABCELL_X36_Y3_N51
@@ -2773,7 +2773,7 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N12
 inst6 : cyclonev_lcell_comb
 -- Equation(s):
--- \inst6~combout\ = ((!\inst|altsyncram_component|auto_generated|q_a\(11) & \inst|altsyncram_component|auto_generated|q_a\(10))) # (\MASTER_RESET~input_o\)
+-- \inst6~combout\ = ((!\inst16|altsyncram_component|auto_generated|q_a\(11) & \inst16|altsyncram_component|auto_generated|q_a\(10))) # (\MASTER_RESET~input_o\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2783,14 +2783,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \ALT_INV_MASTER_RESET~input_o\,
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst6~combout\);
 
 -- Location: MLABCELL_X37_Y3_N51
 \inst2|inst4~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst2|inst4~0_combout\ = (!\inst|altsyncram_component|auto_generated|q_a\(11) & (!\inst|altsyncram_component|auto_generated|q_a\(10) & \inst|altsyncram_component|auto_generated|q_a\(14)))
+-- \inst2|inst4~0_combout\ = (!\inst16|altsyncram_component|auto_generated|q_a\(11) & (!\inst16|altsyncram_component|auto_generated|q_a\(10) & \inst16|altsyncram_component|auto_generated|q_a\(14)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2799,9 +2799,9 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
 	combout => \inst2|inst4~0_combout\);
 
 -- Location: FF_X37_Y3_N23
@@ -2824,10 +2824,10 @@ PORT MAP (
 -- Location: LABCELL_X36_Y3_N18
 \inst5|inst|o[0]~3\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst|o[0]~3_combout\ = ( !\inst|altsyncram_component|auto_generated|q_a\(13) & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst|altsyncram_component|auto_generated|q_a\(0) $ ((((!\inst3|inst~q\)))))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(8) & (((\inst|altsyncram_component|auto_generated|q_a\(9) & ((\inst|altsyncram_component|auto_generated|q_a\(1))))))) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(13) & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst|altsyncram_component|auto_generated|q_a\(0) $ ((((!\inst4|inst~q\)))))) # (\inst|altsyncram_component|auto_generated|q_a\(8) & (((\inst|altsyncram_component|auto_generated|q_a\(9) & 
--- ((\inst|altsyncram_component|auto_generated|q_a\(1))))))) ) )
+-- \inst5|inst|o[0]~3_combout\ = ( !\inst16|altsyncram_component|auto_generated|q_a\(13) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst16|altsyncram_component|auto_generated|q_a\(0) $ ((((!\inst3|inst~q\)))))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(8) & (((\inst16|altsyncram_component|auto_generated|q_a\(9) & ((\inst16|altsyncram_component|auto_generated|q_a\(1))))))) ) ) # ( \inst16|altsyncram_component|auto_generated|q_a\(13) & ( 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst16|altsyncram_component|auto_generated|q_a\(0) $ ((((!\inst4|inst~q\)))))) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & (((\inst16|altsyncram_component|auto_generated|q_a\(9) & 
+-- ((\inst16|altsyncram_component|auto_generated|q_a\(1))))))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2836,19 +2836,19 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
 	datac => \inst4|ALT_INV_inst~q\,
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
 	datag => \inst3|ALT_INV_inst~q\,
 	combout => \inst5|inst|o[0]~3_combout\);
 
 -- Location: MLABCELL_X37_Y3_N24
 \inst2|inst9~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst2|inst9~0_combout\ = ( !\inst|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst|altsyncram_component|auto_generated|q_a\(11) & \inst|altsyncram_component|auto_generated|q_a\(15)) ) )
+-- \inst2|inst9~0_combout\ = ( !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(11) & \inst16|altsyncram_component|auto_generated|q_a\(15)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2857,9 +2857,9 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst2|inst9~0_combout\);
 
 -- Location: FF_X37_Y3_N46
@@ -2882,7 +2882,7 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N21
 \inst2|inst2|o[0]~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst2|inst2|o[0]~2_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(13) & ( \inst4|inst~q\ ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(13) & ( \inst3|inst~q\ ) )
+-- \inst2|inst2|o[0]~2_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(13) & ( \inst4|inst~q\ ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(13) & ( \inst3|inst~q\ ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2893,7 +2893,7 @@ GENERIC MAP (
 PORT MAP (
 	datac => \inst4|ALT_INV_inst~q\,
 	datad => \inst3|ALT_INV_inst~q\,
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
 	combout => \inst2|inst2|o[0]~2_combout\);
 
 -- Location: FF_X37_Y3_N8
@@ -2916,8 +2916,8 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N9
 \inst5|inst2|inst4|inst2~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst2|inst4|inst2~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(13) & (!\inst3|inst1~q\)) # (\inst|altsyncram_component|auto_generated|q_a\(13) & ((!\inst4|inst1~q\))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(13) & (\inst3|inst1~q\)) # (\inst|altsyncram_component|auto_generated|q_a\(13) & ((\inst4|inst1~q\))) ) )
+-- \inst5|inst2|inst4|inst2~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(13) & (!\inst3|inst1~q\)) # (\inst16|altsyncram_component|auto_generated|q_a\(13) & ((!\inst4|inst1~q\))) ) 
+-- ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(13) & (\inst3|inst1~q\)) # (\inst16|altsyncram_component|auto_generated|q_a\(13) & ((\inst4|inst1~q\))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2926,21 +2926,22 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
 	datab => \inst3|ALT_INV_inst1~q\,
 	datac => \inst4|ALT_INV_inst1~q\,
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst5|inst2|inst4|inst2~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N12
 \inst5|inst|o[1]~2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst|o[1]~2_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(0) & ( \inst5|inst2|inst4|inst2~0_combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst2|inst2|o[0]~2_combout\ $ 
--- ((\inst|altsyncram_component|auto_generated|q_a\(9))))) # (\inst|altsyncram_component|auto_generated|q_a\(8) & (((!\inst|altsyncram_component|auto_generated|q_a\(9)) # (\inst|altsyncram_component|auto_generated|q_a\(2))))) ) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(0) & ( \inst5|inst2|inst4|inst2~0_combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8)) # ((\inst|altsyncram_component|auto_generated|q_a\(9) & \inst|altsyncram_component|auto_generated|q_a\(2))) 
--- ) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(0) & ( !\inst5|inst2|inst4|inst2~0_combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst2|inst2|o[0]~2_combout\ $ ((!\inst|altsyncram_component|auto_generated|q_a\(9))))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(8) & (((!\inst|altsyncram_component|auto_generated|q_a\(9)) # (\inst|altsyncram_component|auto_generated|q_a\(2))))) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(0) & ( 
--- !\inst5|inst2|inst4|inst2~0_combout\ & ( (\inst|altsyncram_component|auto_generated|q_a\(9) & (\inst|altsyncram_component|auto_generated|q_a\(2) & \inst|altsyncram_component|auto_generated|q_a\(8))) ) ) )
+-- \inst5|inst|o[1]~2_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(0) & ( \inst5|inst2|inst4|inst2~0_combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst2|inst2|o[0]~2_combout\ $ 
+-- ((\inst16|altsyncram_component|auto_generated|q_a\(9))))) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & (((!\inst16|altsyncram_component|auto_generated|q_a\(9)) # (\inst16|altsyncram_component|auto_generated|q_a\(2))))) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(0) & ( \inst5|inst2|inst4|inst2~0_combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8)) # ((\inst16|altsyncram_component|auto_generated|q_a\(9) & 
+-- \inst16|altsyncram_component|auto_generated|q_a\(2))) ) ) ) # ( \inst16|altsyncram_component|auto_generated|q_a\(0) & ( !\inst5|inst2|inst4|inst2~0_combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst2|inst2|o[0]~2_combout\ $ 
+-- ((!\inst16|altsyncram_component|auto_generated|q_a\(9))))) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & (((!\inst16|altsyncram_component|auto_generated|q_a\(9)) # (\inst16|altsyncram_component|auto_generated|q_a\(2))))) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(0) & ( !\inst5|inst2|inst4|inst2~0_combout\ & ( (\inst16|altsyncram_component|auto_generated|q_a\(9) & (\inst16|altsyncram_component|auto_generated|q_a\(2) & 
+-- \inst16|altsyncram_component|auto_generated|q_a\(8))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2950,10 +2951,10 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \inst2|inst2|ALT_INV_o[0]~2_combout\,
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
 	dataf => \inst5|inst2|inst4|ALT_INV_inst2~0_combout\,
 	combout => \inst5|inst|o[1]~2_combout\);
 
@@ -2976,7 +2977,7 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N6
 \inst2|inst2|o[1]~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst2|inst2|o[1]~1_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(13) & ( \inst4|inst1~q\ ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(13) & ( \inst3|inst1~q\ ) )
+-- \inst2|inst2|o[1]~1_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(13) & ( \inst4|inst1~q\ ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(13) & ( \inst3|inst1~q\ ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2987,7 +2988,7 @@ GENERIC MAP (
 PORT MAP (
 	datac => \inst4|ALT_INV_inst1~q\,
 	datad => \inst3|ALT_INV_inst1~q\,
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
 	combout => \inst2|inst2|o[1]~1_combout\);
 
 -- Location: FF_X37_Y3_N44
@@ -3009,8 +3010,8 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N15
 \inst5|inst2|inst3|inst2~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst2|inst3|inst2~0_combout\ = ( \inst4|inst2~q\ & ( !\inst|altsyncram_component|auto_generated|q_a\(2) $ (((!\inst|altsyncram_component|auto_generated|q_a\(13) & !\inst3|inst2~q\))) ) ) # ( !\inst4|inst2~q\ & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(2) $ (((!\inst3|inst2~q\) # (\inst|altsyncram_component|auto_generated|q_a\(13)))) ) )
+-- \inst5|inst2|inst3|inst2~0_combout\ = ( \inst4|inst2~q\ & ( !\inst16|altsyncram_component|auto_generated|q_a\(2) $ (((!\inst16|altsyncram_component|auto_generated|q_a\(13) & !\inst3|inst2~q\))) ) ) # ( !\inst4|inst2~q\ & ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(2) $ (((!\inst3|inst2~q\) # (\inst16|altsyncram_component|auto_generated|q_a\(13)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3019,8 +3020,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
 	datad => \inst3|ALT_INV_inst2~q\,
 	dataf => \inst4|ALT_INV_inst2~q\,
 	combout => \inst5|inst2|inst3|inst2~0_combout\);
@@ -3028,10 +3029,10 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N18
 \inst5|inst100|inst5|inst8\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst100|inst5|inst8~combout\ = ( \inst5|inst2|inst3|inst2~0_combout\ & ( (!\inst2|inst2|o[1]~1_combout\ & ((!\inst|altsyncram_component|auto_generated|q_a\(0)) # ((!\inst|altsyncram_component|auto_generated|q_a\(1)) # 
--- (!\inst2|inst2|o[0]~2_combout\)))) # (\inst2|inst2|o[1]~1_combout\ & (!\inst|altsyncram_component|auto_generated|q_a\(1) & ((!\inst|altsyncram_component|auto_generated|q_a\(0)) # (!\inst2|inst2|o[0]~2_combout\)))) ) ) # ( 
--- !\inst5|inst2|inst3|inst2~0_combout\ & ( (!\inst2|inst2|o[1]~1_combout\ & (\inst|altsyncram_component|auto_generated|q_a\(0) & (\inst|altsyncram_component|auto_generated|q_a\(1) & \inst2|inst2|o[0]~2_combout\))) # (\inst2|inst2|o[1]~1_combout\ & 
--- (((\inst|altsyncram_component|auto_generated|q_a\(0) & \inst2|inst2|o[0]~2_combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(1)))) ) )
+-- \inst5|inst100|inst5|inst8~combout\ = ( \inst5|inst2|inst3|inst2~0_combout\ & ( (!\inst2|inst2|o[1]~1_combout\ & ((!\inst16|altsyncram_component|auto_generated|q_a\(0)) # ((!\inst16|altsyncram_component|auto_generated|q_a\(1)) # 
+-- (!\inst2|inst2|o[0]~2_combout\)))) # (\inst2|inst2|o[1]~1_combout\ & (!\inst16|altsyncram_component|auto_generated|q_a\(1) & ((!\inst16|altsyncram_component|auto_generated|q_a\(0)) # (!\inst2|inst2|o[0]~2_combout\)))) ) ) # ( 
+-- !\inst5|inst2|inst3|inst2~0_combout\ & ( (!\inst2|inst2|o[1]~1_combout\ & (\inst16|altsyncram_component|auto_generated|q_a\(0) & (\inst16|altsyncram_component|auto_generated|q_a\(1) & \inst2|inst2|o[0]~2_combout\))) # (\inst2|inst2|o[1]~1_combout\ & 
+-- (((\inst16|altsyncram_component|auto_generated|q_a\(0) & \inst2|inst2|o[0]~2_combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(1)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3040,9 +3041,9 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
 	datab => \inst2|inst2|ALT_INV_o[1]~1_combout\,
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	datad => \inst2|inst2|ALT_INV_o[0]~2_combout\,
 	dataf => \inst5|inst2|inst3|ALT_INV_inst2~0_combout\,
 	combout => \inst5|inst100|inst5|inst8~combout\);
@@ -3050,9 +3051,9 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N27
 \inst5|inst2|inst3|inst2\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst2|inst3|inst2~combout\ = ( \inst2|inst2|o[0]~2_combout\ & ( !\inst5|inst2|inst3|inst2~0_combout\ $ (((!\inst|altsyncram_component|auto_generated|q_a\(1)) # (\inst2|inst2|o[1]~1_combout\))) ) ) # ( !\inst2|inst2|o[0]~2_combout\ & ( 
--- !\inst5|inst2|inst3|inst2~0_combout\ $ (((!\inst|altsyncram_component|auto_generated|q_a\(1) & ((!\inst|altsyncram_component|auto_generated|q_a\(0)) # (\inst2|inst2|o[1]~1_combout\))) # (\inst|altsyncram_component|auto_generated|q_a\(1) & 
--- (\inst2|inst2|o[1]~1_combout\ & !\inst|altsyncram_component|auto_generated|q_a\(0))))) ) )
+-- \inst5|inst2|inst3|inst2~combout\ = ( \inst2|inst2|o[0]~2_combout\ & ( !\inst5|inst2|inst3|inst2~0_combout\ $ (((!\inst16|altsyncram_component|auto_generated|q_a\(1)) # (\inst2|inst2|o[1]~1_combout\))) ) ) # ( !\inst2|inst2|o[0]~2_combout\ & ( 
+-- !\inst5|inst2|inst3|inst2~0_combout\ $ (((!\inst16|altsyncram_component|auto_generated|q_a\(1) & ((!\inst16|altsyncram_component|auto_generated|q_a\(0)) # (\inst2|inst2|o[1]~1_combout\))) # (\inst16|altsyncram_component|auto_generated|q_a\(1) & 
+-- (\inst2|inst2|o[1]~1_combout\ & !\inst16|altsyncram_component|auto_generated|q_a\(0))))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3061,21 +3062,21 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	datab => \inst5|inst2|inst3|ALT_INV_inst2~0_combout\,
 	datac => \inst2|inst2|ALT_INV_o[1]~1_combout\,
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
 	dataf => \inst2|inst2|ALT_INV_o[0]~2_combout\,
 	combout => \inst5|inst2|inst3|inst2~combout\);
 
 -- Location: MLABCELL_X37_Y3_N42
 \inst5|inst|o[2]~1\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst|o[2]~1_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst2|inst3|inst2~combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8)) # (\inst|altsyncram_component|auto_generated|q_a\(3)) ) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst2|inst3|inst2~combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (\inst5|inst100|inst5|inst8~combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(8) & 
--- ((\inst|altsyncram_component|auto_generated|q_a\(1)))) ) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst2|inst3|inst2~combout\ & ( (\inst|altsyncram_component|auto_generated|q_a\(3) & 
--- \inst|altsyncram_component|auto_generated|q_a\(8)) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst2|inst3|inst2~combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (\inst5|inst100|inst5|inst8~combout\)) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(8) & ((\inst|altsyncram_component|auto_generated|q_a\(1)))) ) ) )
+-- \inst5|inst|o[2]~1_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst2|inst3|inst2~combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8)) # (\inst16|altsyncram_component|auto_generated|q_a\(3)) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst2|inst3|inst2~combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (\inst5|inst100|inst5|inst8~combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & 
+-- ((\inst16|altsyncram_component|auto_generated|q_a\(1)))) ) ) ) # ( \inst16|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst2|inst3|inst2~combout\ & ( (\inst16|altsyncram_component|auto_generated|q_a\(3) & 
+-- \inst16|altsyncram_component|auto_generated|q_a\(8)) ) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst2|inst3|inst2~combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (\inst5|inst100|inst5|inst8~combout\)) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(8) & ((\inst16|altsyncram_component|auto_generated|q_a\(1)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3085,10 +3086,10 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \inst5|inst100|inst5|ALT_INV_inst8~combout\,
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
 	dataf => \inst5|inst2|inst3|ALT_INV_inst2~combout\,
 	combout => \inst5|inst|o[2]~1_combout\);
 
@@ -3128,8 +3129,8 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N48
 \inst5|inst2|inst|inst2~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst2|inst|inst2~0_combout\ = ( \inst4|inst3~q\ & ( !\inst|altsyncram_component|auto_generated|q_a\(3) $ (((!\inst|altsyncram_component|auto_generated|q_a\(13) & !\inst3|inst3~q\))) ) ) # ( !\inst4|inst3~q\ & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(3) $ (((!\inst3|inst3~q\) # (\inst|altsyncram_component|auto_generated|q_a\(13)))) ) )
+-- \inst5|inst2|inst|inst2~0_combout\ = ( \inst4|inst3~q\ & ( !\inst16|altsyncram_component|auto_generated|q_a\(3) $ (((!\inst16|altsyncram_component|auto_generated|q_a\(13) & !\inst3|inst3~q\))) ) ) # ( !\inst4|inst3~q\ & ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(3) $ (((!\inst3|inst3~q\) # (\inst16|altsyncram_component|auto_generated|q_a\(13)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3138,8 +3139,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
 	datad => \inst3|ALT_INV_inst3~q\,
 	dataf => \inst4|ALT_INV_inst3~q\,
 	combout => \inst5|inst2|inst|inst2~0_combout\);
@@ -3147,7 +3148,7 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N57
 \inst2|inst2|o[2]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst2|inst2|o[2]~0_combout\ = ( \inst4|inst2~q\ & ( (\inst3|inst2~q\) # (\inst|altsyncram_component|auto_generated|q_a\(13)) ) ) # ( !\inst4|inst2~q\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(13) & \inst3|inst2~q\) ) )
+-- \inst2|inst2|o[2]~0_combout\ = ( \inst4|inst2~q\ & ( (\inst3|inst2~q\) # (\inst16|altsyncram_component|auto_generated|q_a\(13)) ) ) # ( !\inst4|inst2~q\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(13) & \inst3|inst2~q\) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3156,7 +3157,7 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
 	datac => \inst3|ALT_INV_inst2~q\,
 	dataf => \inst4|ALT_INV_inst2~q\,
 	combout => \inst2|inst2|o[2]~0_combout\);
@@ -3164,11 +3165,11 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N0
 \inst5|inst2|inst3|inst8~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst2|inst3|inst8~0_combout\ = ( \inst2|inst2|o[1]~1_combout\ & ( \inst2|inst2|o[2]~0_combout\ & ( (\inst|altsyncram_component|auto_generated|q_a\(0) & (\inst|altsyncram_component|auto_generated|q_a\(2) & (!\inst2|inst2|o[0]~2_combout\ & 
--- \inst|altsyncram_component|auto_generated|q_a\(1)))) ) ) ) # ( !\inst2|inst2|o[1]~1_combout\ & ( \inst2|inst2|o[2]~0_combout\ & ( (\inst|altsyncram_component|auto_generated|q_a\(2) & (((\inst|altsyncram_component|auto_generated|q_a\(0) & 
--- !\inst2|inst2|o[0]~2_combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(1)))) ) ) ) # ( \inst2|inst2|o[1]~1_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( ((\inst|altsyncram_component|auto_generated|q_a\(0) & (!\inst2|inst2|o[0]~2_combout\ & 
--- \inst|altsyncram_component|auto_generated|q_a\(1)))) # (\inst|altsyncram_component|auto_generated|q_a\(2)) ) ) ) # ( !\inst2|inst2|o[1]~1_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( (((\inst|altsyncram_component|auto_generated|q_a\(0) & 
--- !\inst2|inst2|o[0]~2_combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(1))) # (\inst|altsyncram_component|auto_generated|q_a\(2)) ) ) )
+-- \inst5|inst2|inst3|inst8~0_combout\ = ( \inst2|inst2|o[1]~1_combout\ & ( \inst2|inst2|o[2]~0_combout\ & ( (\inst16|altsyncram_component|auto_generated|q_a\(0) & (\inst16|altsyncram_component|auto_generated|q_a\(2) & (!\inst2|inst2|o[0]~2_combout\ & 
+-- \inst16|altsyncram_component|auto_generated|q_a\(1)))) ) ) ) # ( !\inst2|inst2|o[1]~1_combout\ & ( \inst2|inst2|o[2]~0_combout\ & ( (\inst16|altsyncram_component|auto_generated|q_a\(2) & (((\inst16|altsyncram_component|auto_generated|q_a\(0) & 
+-- !\inst2|inst2|o[0]~2_combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(1)))) ) ) ) # ( \inst2|inst2|o[1]~1_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( ((\inst16|altsyncram_component|auto_generated|q_a\(0) & (!\inst2|inst2|o[0]~2_combout\ & 
+-- \inst16|altsyncram_component|auto_generated|q_a\(1)))) # (\inst16|altsyncram_component|auto_generated|q_a\(2)) ) ) ) # ( !\inst2|inst2|o[1]~1_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( (((\inst16|altsyncram_component|auto_generated|q_a\(0) & 
+-- !\inst2|inst2|o[0]~2_combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(1))) # (\inst16|altsyncram_component|auto_generated|q_a\(2)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3177,10 +3178,10 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
 	datac => \inst2|inst2|ALT_INV_o[0]~2_combout\,
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	datae => \inst2|inst2|ALT_INV_o[1]~1_combout\,
 	dataf => \inst2|inst2|ALT_INV_o[2]~0_combout\,
 	combout => \inst5|inst2|inst3|inst8~0_combout\);
@@ -3188,12 +3189,12 @@ PORT MAP (
 -- Location: LABCELL_X36_Y3_N30
 \inst5|inst100|inst5|inst5~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst100|inst5|inst5~0_combout\ = ( \inst2|inst2|o[0]~2_combout\ & ( \inst2|inst2|o[2]~0_combout\ & ( ((!\inst|altsyncram_component|auto_generated|q_a\(1) & (\inst|altsyncram_component|auto_generated|q_a\(0) & \inst2|inst2|o[1]~1_combout\)) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(1) & ((\inst2|inst2|o[1]~1_combout\) # (\inst|altsyncram_component|auto_generated|q_a\(0))))) # (\inst|altsyncram_component|auto_generated|q_a\(2)) ) ) ) # ( !\inst2|inst2|o[0]~2_combout\ & ( 
--- \inst2|inst2|o[2]~0_combout\ & ( ((\inst|altsyncram_component|auto_generated|q_a\(1) & \inst2|inst2|o[1]~1_combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(2)) ) ) ) # ( \inst2|inst2|o[0]~2_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( 
--- (\inst|altsyncram_component|auto_generated|q_a\(2) & ((!\inst|altsyncram_component|auto_generated|q_a\(1) & (\inst|altsyncram_component|auto_generated|q_a\(0) & \inst2|inst2|o[1]~1_combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(1) & 
--- ((\inst2|inst2|o[1]~1_combout\) # (\inst|altsyncram_component|auto_generated|q_a\(0)))))) ) ) ) # ( !\inst2|inst2|o[0]~2_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( (\inst|altsyncram_component|auto_generated|q_a\(2) & 
--- (\inst|altsyncram_component|auto_generated|q_a\(1) & \inst2|inst2|o[1]~1_combout\)) ) ) )
+-- \inst5|inst100|inst5|inst5~0_combout\ = ( \inst2|inst2|o[0]~2_combout\ & ( \inst2|inst2|o[2]~0_combout\ & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(1) & (\inst16|altsyncram_component|auto_generated|q_a\(0) & \inst2|inst2|o[1]~1_combout\)) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(1) & ((\inst2|inst2|o[1]~1_combout\) # (\inst16|altsyncram_component|auto_generated|q_a\(0))))) # (\inst16|altsyncram_component|auto_generated|q_a\(2)) ) ) ) # ( !\inst2|inst2|o[0]~2_combout\ & ( 
+-- \inst2|inst2|o[2]~0_combout\ & ( ((\inst16|altsyncram_component|auto_generated|q_a\(1) & \inst2|inst2|o[1]~1_combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(2)) ) ) ) # ( \inst2|inst2|o[0]~2_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(2) & ((!\inst16|altsyncram_component|auto_generated|q_a\(1) & (\inst16|altsyncram_component|auto_generated|q_a\(0) & \inst2|inst2|o[1]~1_combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(1) & 
+-- ((\inst2|inst2|o[1]~1_combout\) # (\inst16|altsyncram_component|auto_generated|q_a\(0)))))) ) ) ) # ( !\inst2|inst2|o[0]~2_combout\ & ( !\inst2|inst2|o[2]~0_combout\ & ( (\inst16|altsyncram_component|auto_generated|q_a\(2) & 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(1) & \inst2|inst2|o[1]~1_combout\)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3202,9 +3203,9 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
 	datad => \inst2|inst2|ALT_INV_o[1]~1_combout\,
 	datae => \inst2|inst2|ALT_INV_o[0]~2_combout\,
 	dataf => \inst2|inst2|ALT_INV_o[2]~0_combout\,
@@ -3213,11 +3214,11 @@ PORT MAP (
 -- Location: MLABCELL_X37_Y3_N36
 \inst5|inst|o[3]~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst5|inst|o[3]~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst100|inst5|inst5~0_combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst5|inst2|inst|inst2~0_combout\ $ 
--- (!\inst5|inst2|inst3|inst8~0_combout\))) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst100|inst5|inst5~0_combout\ & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst5|inst2|inst|inst2~0_combout\)) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(8) & ((\inst|altsyncram_component|auto_generated|q_a\(2)))) ) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst100|inst5|inst5~0_combout\ & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst5|inst2|inst|inst2~0_combout\ $ (!\inst5|inst2|inst3|inst8~0_combout\))) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst100|inst5|inst5~0_combout\ & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(8) & (\inst5|inst2|inst|inst2~0_combout\)) # (\inst|altsyncram_component|auto_generated|q_a\(8) & ((\inst|altsyncram_component|auto_generated|q_a\(2)))) ) ) )
+-- \inst5|inst|o[3]~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst100|inst5|inst5~0_combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst5|inst2|inst|inst2~0_combout\ $ 
+-- (!\inst5|inst2|inst3|inst8~0_combout\))) ) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(9) & ( \inst5|inst100|inst5|inst5~0_combout\ & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst5|inst2|inst|inst2~0_combout\)) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(8) & ((\inst16|altsyncram_component|auto_generated|q_a\(2)))) ) ) ) # ( \inst16|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst100|inst5|inst5~0_combout\ & ( 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst5|inst2|inst|inst2~0_combout\ $ (!\inst5|inst2|inst3|inst8~0_combout\))) ) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(9) & ( !\inst5|inst100|inst5|inst5~0_combout\ & ( 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (\inst5|inst2|inst|inst2~0_combout\)) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & ((\inst16|altsyncram_component|auto_generated|q_a\(2)))) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3226,11 +3227,11 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
 	datab => \inst5|inst2|inst|ALT_INV_inst2~0_combout\,
 	datac => \inst5|inst2|inst3|ALT_INV_inst8~0_combout\,
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
 	dataf => \inst5|inst100|inst5|ALT_INV_inst5~0_combout\,
 	combout => \inst5|inst|o[3]~0_combout\);
 
@@ -3510,9 +3511,9 @@ PORT MAP (
 -- Location: LABCELL_X36_Y3_N36
 \inst14|inst42~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst42~0_combout\ = ( !\inst|altsyncram_component|auto_generated|q_a\(2) & ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( (\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( 
--- \inst|altsyncram_component|auto_generated|q_a\(2) & ( !\inst|altsyncram_component|auto_generated|q_a\(1) & ( !\inst|altsyncram_component|auto_generated|q_a\(3) $ (\inst|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(2) & ( !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(0)) ) ) )
+-- \inst14|inst42~0_combout\ = ( !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) 
+-- ) # ( \inst16|altsyncram_component|auto_generated|q_a\(2) & ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( !\inst16|altsyncram_component|auto_generated|q_a\(3) $ (\inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3521,18 +3522,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst42~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N9
 \inst14|inst54~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst54~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(0) & (\inst|altsyncram_component|auto_generated|q_a\(2))) # (\inst|altsyncram_component|auto_generated|q_a\(0) & 
--- ((\inst|altsyncram_component|auto_generated|q_a\(3)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (\inst|altsyncram_component|auto_generated|q_a\(2) & (!\inst|altsyncram_component|auto_generated|q_a\(3) $ 
--- (!\inst|altsyncram_component|auto_generated|q_a\(0)))) ) )
+-- \inst14|inst54~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(0) & (\inst16|altsyncram_component|auto_generated|q_a\(2))) # (\inst16|altsyncram_component|auto_generated|q_a\(0) & 
+-- ((\inst16|altsyncram_component|auto_generated|q_a\(3)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (\inst16|altsyncram_component|auto_generated|q_a\(2) & (!\inst16|altsyncram_component|auto_generated|q_a\(3) $ 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(0)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3541,18 +3542,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst54~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N57
 \inst14|inst55~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst55~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(2) & (!\inst|altsyncram_component|auto_generated|q_a\(3) & !\inst|altsyncram_component|auto_generated|q_a\(0))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(2) & (\inst|altsyncram_component|auto_generated|q_a\(3))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (\inst|altsyncram_component|auto_generated|q_a\(2) & 
--- (\inst|altsyncram_component|auto_generated|q_a\(3) & !\inst|altsyncram_component|auto_generated|q_a\(0))) ) )
+-- \inst14|inst55~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(2) & (!\inst16|altsyncram_component|auto_generated|q_a\(3) & !\inst16|altsyncram_component|auto_generated|q_a\(0))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(2) & (\inst16|altsyncram_component|auto_generated|q_a\(3))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (\inst16|altsyncram_component|auto_generated|q_a\(2) & 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(3) & !\inst16|altsyncram_component|auto_generated|q_a\(0))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3561,19 +3562,19 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst55~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N0
 \inst14|inst57~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst57~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(2) & ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( \inst|altsyncram_component|auto_generated|q_a\(0) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(2) & ( 
--- \inst|altsyncram_component|auto_generated|q_a\(1) & ( (\inst|altsyncram_component|auto_generated|q_a\(3) & !\inst|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(2) & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(3) & !\inst|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(2) & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(1) & ( \inst|altsyncram_component|auto_generated|q_a\(0) ) ) )
+-- \inst14|inst57~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(2) & ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( \inst16|altsyncram_component|auto_generated|q_a\(0) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (\inst16|altsyncram_component|auto_generated|q_a\(3) & !\inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( 
+-- \inst16|altsyncram_component|auto_generated|q_a\(2) & ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(3) & !\inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( \inst16|altsyncram_component|auto_generated|q_a\(0) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3582,17 +3583,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst57~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N54
 \inst14|inst60~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst60~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(0)) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(1) & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(2) & ((\inst|altsyncram_component|auto_generated|q_a\(0)))) # (\inst|altsyncram_component|auto_generated|q_a\(2) & (!\inst|altsyncram_component|auto_generated|q_a\(3))) ) )
+-- \inst14|inst60~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(1) 
+-- & ( (!\inst16|altsyncram_component|auto_generated|q_a\(2) & ((\inst16|altsyncram_component|auto_generated|q_a\(0)))) # (\inst16|altsyncram_component|auto_generated|q_a\(2) & (!\inst16|altsyncram_component|auto_generated|q_a\(3))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3601,19 +3602,19 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst60~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N45
 \inst14|inst62~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst62~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(2) & ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(2) & ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( !\inst|altsyncram_component|auto_generated|q_a\(3) ) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(2) & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(2) & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(3) & \inst|altsyncram_component|auto_generated|q_a\(0)) ) ) )
+-- \inst14|inst62~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(2) & ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) 
+-- ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( !\inst16|altsyncram_component|auto_generated|q_a\(3) ) ) ) # ( \inst16|altsyncram_component|auto_generated|q_a\(2) & ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(2) & ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(3) & \inst16|altsyncram_component|auto_generated|q_a\(0)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3622,18 +3623,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst62~0_combout\);
 
 -- Location: LABCELL_X36_Y3_N6
 \inst14|inst64~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst14|inst64~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(1) & ( ((!\inst|altsyncram_component|auto_generated|q_a\(2)) # (!\inst|altsyncram_component|auto_generated|q_a\(0))) # (\inst|altsyncram_component|auto_generated|q_a\(3)) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst|altsyncram_component|auto_generated|q_a\(3) & (\inst|altsyncram_component|auto_generated|q_a\(2))) # (\inst|altsyncram_component|auto_generated|q_a\(3) & 
--- ((!\inst|altsyncram_component|auto_generated|q_a\(2)) # (\inst|altsyncram_component|auto_generated|q_a\(0)))) ) )
+-- \inst14|inst64~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(1) & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(2)) # (!\inst16|altsyncram_component|auto_generated|q_a\(0))) # (\inst16|altsyncram_component|auto_generated|q_a\(3)) 
+-- ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(1) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(3) & (\inst16|altsyncram_component|auto_generated|q_a\(2))) # (\inst16|altsyncram_component|auto_generated|q_a\(3) & 
+-- ((!\inst16|altsyncram_component|auto_generated|q_a\(2)) # (\inst16|altsyncram_component|auto_generated|q_a\(0)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3642,18 +3643,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(3),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(2),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(0),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(1),
 	combout => \inst14|inst64~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N15
 \inst13|inst42~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst42~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(5) & ( (\inst|altsyncram_component|auto_generated|q_a\(7) & (!\inst|altsyncram_component|auto_generated|q_a\(6) & \inst|altsyncram_component|auto_generated|q_a\(4))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(5) & ( (!\inst|altsyncram_component|auto_generated|q_a\(7) & (!\inst|altsyncram_component|auto_generated|q_a\(6) $ (!\inst|altsyncram_component|auto_generated|q_a\(4)))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(7) & (\inst|altsyncram_component|auto_generated|q_a\(6) & \inst|altsyncram_component|auto_generated|q_a\(4))) ) )
+-- \inst13|inst42~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(5) & ( (\inst16|altsyncram_component|auto_generated|q_a\(7) & (!\inst16|altsyncram_component|auto_generated|q_a\(6) & \inst16|altsyncram_component|auto_generated|q_a\(4))) ) ) 
+-- # ( !\inst16|altsyncram_component|auto_generated|q_a\(5) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(7) & (!\inst16|altsyncram_component|auto_generated|q_a\(6) $ (!\inst16|altsyncram_component|auto_generated|q_a\(4)))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(7) & (\inst16|altsyncram_component|auto_generated|q_a\(6) & \inst16|altsyncram_component|auto_generated|q_a\(4))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3662,18 +3663,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
 	combout => \inst13|inst42~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N30
 \inst13|inst54~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst54~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst|altsyncram_component|auto_generated|q_a\(7) & (!\inst|altsyncram_component|auto_generated|q_a\(4) $ (!\inst|altsyncram_component|auto_generated|q_a\(5)))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(7) & ((!\inst|altsyncram_component|auto_generated|q_a\(4)) # (\inst|altsyncram_component|auto_generated|q_a\(5)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(6) & ( 
--- (\inst|altsyncram_component|auto_generated|q_a\(7) & (\inst|altsyncram_component|auto_generated|q_a\(4) & \inst|altsyncram_component|auto_generated|q_a\(5))) ) )
+-- \inst13|inst54~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(7) & (!\inst16|altsyncram_component|auto_generated|q_a\(4) $ (!\inst16|altsyncram_component|auto_generated|q_a\(5)))) 
+-- # (\inst16|altsyncram_component|auto_generated|q_a\(7) & ((!\inst16|altsyncram_component|auto_generated|q_a\(4)) # (\inst16|altsyncram_component|auto_generated|q_a\(5)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(6) & ( 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(7) & (\inst16|altsyncram_component|auto_generated|q_a\(4) & \inst16|altsyncram_component|auto_generated|q_a\(5))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3682,18 +3683,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
 	combout => \inst13|inst54~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N3
 \inst13|inst55~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst55~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(5) & ( (!\inst|altsyncram_component|auto_generated|q_a\(7) & (!\inst|altsyncram_component|auto_generated|q_a\(6) & !\inst|altsyncram_component|auto_generated|q_a\(4))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(7) & (\inst|altsyncram_component|auto_generated|q_a\(6))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(5) & ( (\inst|altsyncram_component|auto_generated|q_a\(7) & 
--- (\inst|altsyncram_component|auto_generated|q_a\(6) & !\inst|altsyncram_component|auto_generated|q_a\(4))) ) )
+-- \inst13|inst55~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(5) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(7) & (!\inst16|altsyncram_component|auto_generated|q_a\(6) & !\inst16|altsyncram_component|auto_generated|q_a\(4))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(7) & (\inst16|altsyncram_component|auto_generated|q_a\(6))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(5) & ( (\inst16|altsyncram_component|auto_generated|q_a\(7) & 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(6) & !\inst16|altsyncram_component|auto_generated|q_a\(4))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3702,18 +3703,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
 	combout => \inst13|inst55~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N18
 \inst13|inst57~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst57~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst|altsyncram_component|auto_generated|q_a\(4) & (!\inst|altsyncram_component|auto_generated|q_a\(7) & !\inst|altsyncram_component|auto_generated|q_a\(5))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(4) & ((\inst|altsyncram_component|auto_generated|q_a\(5)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst|altsyncram_component|auto_generated|q_a\(4) & 
--- (\inst|altsyncram_component|auto_generated|q_a\(7) & \inst|altsyncram_component|auto_generated|q_a\(5))) # (\inst|altsyncram_component|auto_generated|q_a\(4) & ((!\inst|altsyncram_component|auto_generated|q_a\(5)))) ) )
+-- \inst13|inst57~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(4) & (!\inst16|altsyncram_component|auto_generated|q_a\(7) & !\inst16|altsyncram_component|auto_generated|q_a\(5))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(4) & ((\inst16|altsyncram_component|auto_generated|q_a\(5)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(4) & 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(7) & \inst16|altsyncram_component|auto_generated|q_a\(5))) # (\inst16|altsyncram_component|auto_generated|q_a\(4) & ((!\inst16|altsyncram_component|auto_generated|q_a\(5)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3722,17 +3723,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
 	combout => \inst13|inst57~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N48
 \inst13|inst60~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst60~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst|altsyncram_component|auto_generated|q_a\(7) & ((!\inst|altsyncram_component|auto_generated|q_a\(5)) # (\inst|altsyncram_component|auto_generated|q_a\(4)))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(6) & ( (\inst|altsyncram_component|auto_generated|q_a\(4) & ((!\inst|altsyncram_component|auto_generated|q_a\(7)) # (!\inst|altsyncram_component|auto_generated|q_a\(5)))) ) )
+-- \inst13|inst60~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(7) & ((!\inst16|altsyncram_component|auto_generated|q_a\(5)) # (\inst16|altsyncram_component|auto_generated|q_a\(4)))) 
+-- ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(6) & ( (\inst16|altsyncram_component|auto_generated|q_a\(4) & ((!\inst16|altsyncram_component|auto_generated|q_a\(7)) # (!\inst16|altsyncram_component|auto_generated|q_a\(5)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3741,18 +3742,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
 	combout => \inst13|inst60~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N9
 \inst13|inst64~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst64~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(5) & ( ((!\inst|altsyncram_component|auto_generated|q_a\(6)) # (!\inst|altsyncram_component|auto_generated|q_a\(4))) # (\inst|altsyncram_component|auto_generated|q_a\(7)) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(5) & ( (!\inst|altsyncram_component|auto_generated|q_a\(7) & (\inst|altsyncram_component|auto_generated|q_a\(6))) # (\inst|altsyncram_component|auto_generated|q_a\(7) & 
--- ((!\inst|altsyncram_component|auto_generated|q_a\(6)) # (\inst|altsyncram_component|auto_generated|q_a\(4)))) ) )
+-- \inst13|inst64~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(5) & ( ((!\inst16|altsyncram_component|auto_generated|q_a\(6)) # (!\inst16|altsyncram_component|auto_generated|q_a\(4))) # (\inst16|altsyncram_component|auto_generated|q_a\(7)) 
+-- ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(5) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(7) & (\inst16|altsyncram_component|auto_generated|q_a\(6))) # (\inst16|altsyncram_component|auto_generated|q_a\(7) & 
+-- ((!\inst16|altsyncram_component|auto_generated|q_a\(6)) # (\inst16|altsyncram_component|auto_generated|q_a\(4)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3761,17 +3762,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
 	combout => \inst13|inst64~0_combout\);
 
 -- Location: LABCELL_X41_Y3_N15
 \inst12|inst42~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst42~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(11) & ( (\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst|altsyncram_component|auto_generated|q_a\(10) $ (!\inst|altsyncram_component|auto_generated|q_a\(9)))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst|altsyncram_component|auto_generated|q_a\(9) & (!\inst|altsyncram_component|auto_generated|q_a\(10) $ (!\inst|altsyncram_component|auto_generated|q_a\(8)))) ) )
+-- \inst12|inst42~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(11) & ( (\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst16|altsyncram_component|auto_generated|q_a\(10) $ (!\inst16|altsyncram_component|auto_generated|q_a\(9)))) 
+-- ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(9) & (!\inst16|altsyncram_component|auto_generated|q_a\(10) $ (!\inst16|altsyncram_component|auto_generated|q_a\(8)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3780,18 +3781,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
 	combout => \inst12|inst42~0_combout\);
 
 -- Location: LABCELL_X41_Y3_N21
 \inst12|inst54~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst54~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (\inst|altsyncram_component|auto_generated|q_a\(10))) # (\inst|altsyncram_component|auto_generated|q_a\(8) & 
--- ((\inst|altsyncram_component|auto_generated|q_a\(9)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(11) & ( (\inst|altsyncram_component|auto_generated|q_a\(10) & (!\inst|altsyncram_component|auto_generated|q_a\(8) $ 
--- (!\inst|altsyncram_component|auto_generated|q_a\(9)))) ) )
+-- \inst12|inst54~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (\inst16|altsyncram_component|auto_generated|q_a\(10))) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & 
+-- ((\inst16|altsyncram_component|auto_generated|q_a\(9)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(11) & ( (\inst16|altsyncram_component|auto_generated|q_a\(10) & (!\inst16|altsyncram_component|auto_generated|q_a\(8) $ 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(9)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3800,17 +3801,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
 	combout => \inst12|inst54~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N21
 \inst12|inst55~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst55~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(11) & ((!\inst|altsyncram_component|auto_generated|q_a\(8)) # (\inst|altsyncram_component|auto_generated|q_a\(9)))) ) ) # 
--- ( !\inst|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst|altsyncram_component|auto_generated|q_a\(11) & \inst|altsyncram_component|auto_generated|q_a\(9))) ) )
+-- \inst12|inst55~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11) & ((!\inst16|altsyncram_component|auto_generated|q_a\(8)) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(9)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst16|altsyncram_component|auto_generated|q_a\(11) & 
+-- \inst16|altsyncram_component|auto_generated|q_a\(9))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3819,19 +3821,19 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst12|inst55~0_combout\);
 
 -- Location: LABCELL_X41_Y3_N12
 \inst12|inst57~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst57~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst|altsyncram_component|auto_generated|q_a\(10) & (!\inst|altsyncram_component|auto_generated|q_a\(8) $ (!\inst|altsyncram_component|auto_generated|q_a\(9)))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(10) & (\inst|altsyncram_component|auto_generated|q_a\(8) & \inst|altsyncram_component|auto_generated|q_a\(9))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(11) & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(10) & (\inst|altsyncram_component|auto_generated|q_a\(8) & !\inst|altsyncram_component|auto_generated|q_a\(9))) # (\inst|altsyncram_component|auto_generated|q_a\(10) & 
--- (!\inst|altsyncram_component|auto_generated|q_a\(8) $ (\inst|altsyncram_component|auto_generated|q_a\(9)))) ) )
+-- \inst12|inst57~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(10) & (!\inst16|altsyncram_component|auto_generated|q_a\(8) $ 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(9)))) # (\inst16|altsyncram_component|auto_generated|q_a\(10) & (\inst16|altsyncram_component|auto_generated|q_a\(8) & \inst16|altsyncram_component|auto_generated|q_a\(9))) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(11) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(10) & (\inst16|altsyncram_component|auto_generated|q_a\(8) & !\inst16|altsyncram_component|auto_generated|q_a\(9))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(10) & (!\inst16|altsyncram_component|auto_generated|q_a\(8) $ (\inst16|altsyncram_component|auto_generated|q_a\(9)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3840,17 +3842,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
 	combout => \inst12|inst57~0_combout\);
 
 -- Location: LABCELL_X41_Y3_N18
 \inst12|inst60~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst60~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(11) & ( (\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst|altsyncram_component|auto_generated|q_a\(10) & !\inst|altsyncram_component|auto_generated|q_a\(9))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(11) & ( ((\inst|altsyncram_component|auto_generated|q_a\(10) & !\inst|altsyncram_component|auto_generated|q_a\(9))) # (\inst|altsyncram_component|auto_generated|q_a\(8)) ) )
+-- \inst12|inst60~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(11) & ( (\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst16|altsyncram_component|auto_generated|q_a\(10) & !\inst16|altsyncram_component|auto_generated|q_a\(9))) ) 
+-- ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(11) & ( ((\inst16|altsyncram_component|auto_generated|q_a\(10) & !\inst16|altsyncram_component|auto_generated|q_a\(9))) # (\inst16|altsyncram_component|auto_generated|q_a\(8)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3859,18 +3861,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
 	combout => \inst12|inst60~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N24
 \inst12|inst64~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst64~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst|altsyncram_component|auto_generated|q_a\(8) & ((!\inst|altsyncram_component|auto_generated|q_a\(11)) # (\inst|altsyncram_component|auto_generated|q_a\(9)))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(8) & ((!\inst|altsyncram_component|auto_generated|q_a\(9)) # (\inst|altsyncram_component|auto_generated|q_a\(11)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(10) & ( 
--- (\inst|altsyncram_component|auto_generated|q_a\(11)) # (\inst|altsyncram_component|auto_generated|q_a\(9)) ) )
+-- \inst12|inst64~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(8) & ((!\inst16|altsyncram_component|auto_generated|q_a\(11)) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(9)))) # (\inst16|altsyncram_component|auto_generated|q_a\(8) & ((!\inst16|altsyncram_component|auto_generated|q_a\(9)) # (\inst16|altsyncram_component|auto_generated|q_a\(11)))) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(11)) # (\inst16|altsyncram_component|auto_generated|q_a\(9)) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3879,18 +3881,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst12|inst64~0_combout\);
 
 -- Location: MLABCELL_X37_Y3_N54
 \inst11|inst42~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst42~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(13) & (!\inst|altsyncram_component|auto_generated|q_a\(15) $ (\inst|altsyncram_component|auto_generated|q_a\(14)))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(13) & (\inst|altsyncram_component|auto_generated|q_a\(15) & !\inst|altsyncram_component|auto_generated|q_a\(14))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(12) & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(13) & (!\inst|altsyncram_component|auto_generated|q_a\(15) & \inst|altsyncram_component|auto_generated|q_a\(14))) ) )
+-- \inst11|inst42~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(13) & (!\inst16|altsyncram_component|auto_generated|q_a\(15) $ 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(14)))) # (\inst16|altsyncram_component|auto_generated|q_a\(13) & (\inst16|altsyncram_component|auto_generated|q_a\(15) & !\inst16|altsyncram_component|auto_generated|q_a\(14))) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(13) & (!\inst16|altsyncram_component|auto_generated|q_a\(15) & \inst16|altsyncram_component|auto_generated|q_a\(14))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3899,18 +3901,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
 	combout => \inst11|inst42~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N6
 \inst11|inst54~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst54~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(15) & (\inst|altsyncram_component|auto_generated|q_a\(14) & !\inst|altsyncram_component|auto_generated|q_a\(13))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(15) & ((\inst|altsyncram_component|auto_generated|q_a\(13)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(12) & ( (\inst|altsyncram_component|auto_generated|q_a\(14) & 
--- ((\inst|altsyncram_component|auto_generated|q_a\(13)) # (\inst|altsyncram_component|auto_generated|q_a\(15)))) ) )
+-- \inst11|inst54~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(15) & (\inst16|altsyncram_component|auto_generated|q_a\(14) & !\inst16|altsyncram_component|auto_generated|q_a\(13))) 
+-- # (\inst16|altsyncram_component|auto_generated|q_a\(15) & ((\inst16|altsyncram_component|auto_generated|q_a\(13)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (\inst16|altsyncram_component|auto_generated|q_a\(14) & 
+-- ((\inst16|altsyncram_component|auto_generated|q_a\(13)) # (\inst16|altsyncram_component|auto_generated|q_a\(15)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3919,18 +3921,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
 	combout => \inst11|inst54~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N45
 \inst11|inst55~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst55~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( (\inst|altsyncram_component|auto_generated|q_a\(15) & (\inst|altsyncram_component|auto_generated|q_a\(14) & \inst|altsyncram_component|auto_generated|q_a\(13))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(15) & (!\inst|altsyncram_component|auto_generated|q_a\(14) & \inst|altsyncram_component|auto_generated|q_a\(13))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(15) & (\inst|altsyncram_component|auto_generated|q_a\(14))) ) )
+-- \inst11|inst55~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(12) & ( (\inst16|altsyncram_component|auto_generated|q_a\(15) & (\inst16|altsyncram_component|auto_generated|q_a\(14) & \inst16|altsyncram_component|auto_generated|q_a\(13))) ) 
+-- ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(15) & (!\inst16|altsyncram_component|auto_generated|q_a\(14) & \inst16|altsyncram_component|auto_generated|q_a\(13))) # 
+-- (\inst16|altsyncram_component|auto_generated|q_a\(15) & (\inst16|altsyncram_component|auto_generated|q_a\(14))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3939,18 +3941,19 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
 	combout => \inst11|inst55~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N42
 \inst11|inst57~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst57~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(14) & ( (!\inst|altsyncram_component|auto_generated|q_a\(12) & (!\inst|altsyncram_component|auto_generated|q_a\(15) & !\inst|altsyncram_component|auto_generated|q_a\(13))) # 
--- (\inst|altsyncram_component|auto_generated|q_a\(12) & ((\inst|altsyncram_component|auto_generated|q_a\(13)))) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(14) & ( (!\inst|altsyncram_component|auto_generated|q_a\(12) & 
--- (\inst|altsyncram_component|auto_generated|q_a\(15) & \inst|altsyncram_component|auto_generated|q_a\(13))) # (\inst|altsyncram_component|auto_generated|q_a\(12) & ((!\inst|altsyncram_component|auto_generated|q_a\(13)))) ) )
+-- \inst11|inst57~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(14) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(12) & (!\inst16|altsyncram_component|auto_generated|q_a\(15) & 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(13))) # (\inst16|altsyncram_component|auto_generated|q_a\(12) & ((\inst16|altsyncram_component|auto_generated|q_a\(13)))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(14) & ( 
+-- (!\inst16|altsyncram_component|auto_generated|q_a\(12) & (\inst16|altsyncram_component|auto_generated|q_a\(15) & \inst16|altsyncram_component|auto_generated|q_a\(13))) # (\inst16|altsyncram_component|auto_generated|q_a\(12) & 
+-- ((!\inst16|altsyncram_component|auto_generated|q_a\(13)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3959,17 +3962,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
 	combout => \inst11|inst57~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N54
 \inst11|inst60~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst60~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(15)) # ((!\inst|altsyncram_component|auto_generated|q_a\(14) & !\inst|altsyncram_component|auto_generated|q_a\(13))) ) ) 
--- # ( !\inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(15) & (\inst|altsyncram_component|auto_generated|q_a\(14) & !\inst|altsyncram_component|auto_generated|q_a\(13))) ) )
+-- \inst11|inst60~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(15)) # ((!\inst16|altsyncram_component|auto_generated|q_a\(14) & 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(13))) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(15) & (\inst16|altsyncram_component|auto_generated|q_a\(14) & 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(13))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3978,18 +3982,18 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
 	combout => \inst11|inst60~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N48
 \inst11|inst62~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst62~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(15) & ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( (\inst|altsyncram_component|auto_generated|q_a\(14) & !\inst|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # 
--- ( !\inst|altsyncram_component|auto_generated|q_a\(15) & ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(14)) # (\inst|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(15) & ( !\inst|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst|altsyncram_component|auto_generated|q_a\(14) & \inst|altsyncram_component|auto_generated|q_a\(13)) ) ) )
+-- \inst11|inst62~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(15) & ( \inst16|altsyncram_component|auto_generated|q_a\(12) & ( (\inst16|altsyncram_component|auto_generated|q_a\(14) & !\inst16|altsyncram_component|auto_generated|q_a\(13)) 
+-- ) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(15) & ( \inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(14)) # (\inst16|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(15) & ( !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(14) & \inst16|altsyncram_component|auto_generated|q_a\(13)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3998,19 +4002,19 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
 	combout => \inst11|inst62~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N0
 \inst11|inst64~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst11|inst64~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(15) & ( \inst|altsyncram_component|auto_generated|q_a\(12) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(15) & ( \inst|altsyncram_component|auto_generated|q_a\(12) & ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(14) $ (!\inst|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # ( \inst|altsyncram_component|auto_generated|q_a\(15) & ( !\inst|altsyncram_component|auto_generated|q_a\(12) & ( 
--- (!\inst|altsyncram_component|auto_generated|q_a\(14)) # (\inst|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # ( !\inst|altsyncram_component|auto_generated|q_a\(15) & ( !\inst|altsyncram_component|auto_generated|q_a\(12) & ( 
--- (\inst|altsyncram_component|auto_generated|q_a\(13)) # (\inst|altsyncram_component|auto_generated|q_a\(14)) ) ) )
+-- \inst11|inst64~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(15) & ( \inst16|altsyncram_component|auto_generated|q_a\(12) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(15) & ( 
+-- \inst16|altsyncram_component|auto_generated|q_a\(12) & ( !\inst16|altsyncram_component|auto_generated|q_a\(14) $ (!\inst16|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # ( \inst16|altsyncram_component|auto_generated|q_a\(15) & ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(14)) # (\inst16|altsyncram_component|auto_generated|q_a\(13)) ) ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(15) & ( 
+-- !\inst16|altsyncram_component|auto_generated|q_a\(12) & ( (\inst16|altsyncram_component|auto_generated|q_a\(13)) # (\inst16|altsyncram_component|auto_generated|q_a\(14)) ) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4019,17 +4023,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(14),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(13),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(15),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(12),
 	combout => \inst11|inst64~0_combout\);
 
 -- Location: LABCELL_X43_Y2_N36
 \inst13|inst62~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst13|inst62~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(6) & ( (\inst|altsyncram_component|auto_generated|q_a\(4) & (!\inst|altsyncram_component|auto_generated|q_a\(7) $ (!\inst|altsyncram_component|auto_generated|q_a\(5)))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst|altsyncram_component|auto_generated|q_a\(7) & ((\inst|altsyncram_component|auto_generated|q_a\(5)) # (\inst|altsyncram_component|auto_generated|q_a\(4)))) ) )
+-- \inst13|inst62~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(6) & ( (\inst16|altsyncram_component|auto_generated|q_a\(4) & (!\inst16|altsyncram_component|auto_generated|q_a\(7) $ (!\inst16|altsyncram_component|auto_generated|q_a\(5)))) ) 
+-- ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(6) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(7) & ((\inst16|altsyncram_component|auto_generated|q_a\(5)) # (\inst16|altsyncram_component|auto_generated|q_a\(4)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4038,17 +4042,17 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
-	datae => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(7),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(4),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(5),
+	datae => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(6),
 	combout => \inst13|inst62~0_combout\);
 
 -- Location: LABCELL_X40_Y3_N15
 \inst12|inst62~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst12|inst62~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(10) & ( (\inst|altsyncram_component|auto_generated|q_a\(8) & (!\inst|altsyncram_component|auto_generated|q_a\(11) $ (!\inst|altsyncram_component|auto_generated|q_a\(9)))) ) ) # ( 
--- !\inst|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst|altsyncram_component|auto_generated|q_a\(11) & ((\inst|altsyncram_component|auto_generated|q_a\(9)) # (\inst|altsyncram_component|auto_generated|q_a\(8)))) ) )
+-- \inst12|inst62~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(10) & ( (\inst16|altsyncram_component|auto_generated|q_a\(8) & (!\inst16|altsyncram_component|auto_generated|q_a\(11) $ (!\inst16|altsyncram_component|auto_generated|q_a\(9)))) 
+-- ) ) # ( !\inst16|altsyncram_component|auto_generated|q_a\(10) & ( (!\inst16|altsyncram_component|auto_generated|q_a\(11) & ((\inst16|altsyncram_component|auto_generated|q_a\(9)) # (\inst16|altsyncram_component|auto_generated|q_a\(8)))) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4057,16 +4061,16 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
-	datac => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
-	datad => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	dataa => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(8),
+	datac => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datad => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(9),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
 	combout => \inst12|inst62~0_combout\);
 
 -- Location: MLABCELL_X37_Y3_N30
 \inst2|inst7~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \inst2|inst7~0_combout\ = ( \inst|altsyncram_component|auto_generated|q_a\(11) & ( \inst|altsyncram_component|auto_generated|q_a\(10) ) )
+-- \inst2|inst7~0_combout\ = ( \inst16|altsyncram_component|auto_generated|q_a\(11) & ( \inst16|altsyncram_component|auto_generated|q_a\(10) ) )
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4075,8 +4079,8 @@ GENERIC MAP (
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	datab => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
-	dataf => \inst|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
+	datab => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(10),
+	dataf => \inst16|altsyncram_component|auto_generated|ALT_INV_q_a\(11),
 	combout => \inst2|inst7~0_combout\);
 
 -- Location: LABCELL_X5_Y23_N3
