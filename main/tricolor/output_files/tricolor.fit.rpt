@@ -1,5 +1,5 @@
 Fitter report for tricolor
-Tue Oct  3 14:20:31 2023
+Tue Oct  3 15:00:51 2023
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Oct  3 14:20:31 2023       ;
+; Fitter Status                   ; Successful - Tue Oct  3 15:00:51 2023       ;
 ; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                   ; tricolor                                    ;
 ; Top-level Entity Name           ; tricolor                                    ;
@@ -73,7 +73,7 @@ https://fpgasoftware.intel.com/eula.
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; 63 / 18,480 ( < 1 % )                       ;
 ; Total registers                 ; 34                                          ;
-; Total pins                      ; 53 / 224 ( 24 % )                           ;
+; Total pins                      ; 55 / 224 ( 25 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 4,096 / 3,153,920 ( < 1 % )                 ;
 ; Total RAM Blocks                ; 1 / 308 ( < 1 % )                           ;
@@ -180,8 +180,8 @@ https://fpgasoftware.intel.com/eula.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 271 ) ; 0.00 % ( 0 / 271 )         ; 0.00 % ( 0 / 271 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 271 ) ; 0.00 % ( 0 / 271 )         ; 0.00 % ( 0 / 271 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 276 ) ; 0.00 % ( 0 / 276 )         ; 0.00 % ( 0 / 276 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 276 ) ; 0.00 % ( 0 / 276 )         ; 0.00 % ( 0 / 276 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -204,7 +204,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 271 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 276 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -222,12 +222,12 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 +-------------------------------------------------------------+--------------------+-------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 63 / 18,480        ; < 1 % ;
 ; ALMs needed [=A-B+C]                                        ; 63                 ;       ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 66 / 18,480        ; < 1 % ;
-;         [a] ALMs used for LUT logic and registers           ; 16                 ;       ;
-;         [b] ALMs used for LUT logic                         ; 48                 ;       ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 64 / 18,480        ; < 1 % ;
+;         [a] ALMs used for LUT logic and registers           ; 15                 ;       ;
+;         [b] ALMs used for LUT logic                         ; 47                 ;       ;
 ;         [c] ALMs used for registers                         ; 2                  ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                  ;       ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 3 / 18,480         ; < 1 % ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 1 / 18,480         ; < 1 % ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 18,480         ; 0 %   ;
 ;         [a] Due to location constrained logic               ; 0                  ;       ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                  ;       ;
@@ -240,12 +240,12 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ;     -- Logic LABs                                           ; 10                 ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                  ;       ;
 ;                                                             ;                    ;       ;
-; Combinational ALUT usage for logic                          ; 114                ;       ;
+; Combinational ALUT usage for logic                          ; 115                ;       ;
 ;     -- 7 input functions                                    ; 1                  ;       ;
 ;     -- 6 input functions                                    ; 9                  ;       ;
 ;     -- 5 input functions                                    ; 5                  ;       ;
 ;     -- 4 input functions                                    ; 57                 ;       ;
-;     -- <=3 input functions                                  ; 42                 ;       ;
+;     -- <=3 input functions                                  ; 43                 ;       ;
 ; Combinational ALUT usage for route-throughs                 ; 1                  ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 34                 ;       ;
@@ -257,7 +257,7 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ;         -- Routing optimization registers                   ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
-; I/O pins                                                    ; 53 / 224           ; 24 %  ;
+; I/O pins                                                    ; 55 / 224           ; 25 %  ;
 ;     -- Clock pins                                           ; 4 / 9              ; 44 %  ;
 ;     -- Dedicated input pins                                 ; 0 / 11             ; 0 %   ;
 ;                                                             ;                    ;       ;
@@ -280,12 +280,12 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; Remote update blocks                                        ; 0 / 1              ; 0 %   ;
 ; Oscillator blocks                                           ; 0 / 1              ; 0 %   ;
 ; Impedance control blocks                                    ; 0 / 3              ; 0 %   ;
-; Average interconnect usage (total/H/V)                      ; 0.1% / 0.1% / 0.1% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 1.7% / 2.0% / 0.9% ;       ;
-; Maximum fan-out                                             ; 181                ;       ;
-; Highest non-global fan-out                                  ; 19                 ;       ;
-; Total fan-out                                               ; 514                ;       ;
-; Average fan-out                                             ; 2.00               ;       ;
+; Average interconnect usage (total/H/V)                      ; 0.2% / 0.2% / 0.2% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 1.8% / 1.9% / 1.4% ;       ;
+; Maximum fan-out                                             ; 183                ;       ;
+; Highest non-global fan-out                                  ; 20                 ;       ;
+; Total fan-out                                               ; 527                ;       ;
+; Average fan-out                                             ; 2.01               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -296,12 +296,12 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 +-------------------------------------------------------------+----------------------+--------------------------------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 63 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
 ; ALMs needed [=A-B+C]                                        ; 63                   ; 0                              ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 66 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
-;         [a] ALMs used for LUT logic and registers           ; 16                   ; 0                              ;
-;         [b] ALMs used for LUT logic                         ; 48                   ; 0                              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 64 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
+;         [a] ALMs used for LUT logic and registers           ; 15                   ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 47                   ; 0                              ;
 ;         [c] ALMs used for registers                         ; 2                    ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                    ; 0                              ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 3 / 18480 ( < 1 % )  ; 0 / 18480 ( 0 % )              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 1 / 18480 ( < 1 % )  ; 0 / 18480 ( 0 % )              ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 18480 ( 0 % )    ; 0 / 18480 ( 0 % )              ;
 ;         [a] Due to location constrained logic               ; 0                    ; 0                              ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                    ; 0                              ;
@@ -314,12 +314,12 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ;     -- Logic LABs                                           ; 10                   ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
-; Combinational ALUT usage for logic                          ; 114                  ; 0                              ;
+; Combinational ALUT usage for logic                          ; 115                  ; 0                              ;
 ;     -- 7 input functions                                    ; 1                    ; 0                              ;
 ;     -- 6 input functions                                    ; 9                    ; 0                              ;
 ;     -- 5 input functions                                    ; 5                    ; 0                              ;
 ;     -- 4 input functions                                    ; 57                   ; 0                              ;
-;     -- <=3 input functions                                  ; 42                   ; 0                              ;
+;     -- <=3 input functions                                  ; 43                   ; 0                              ;
 ; Combinational ALUT usage for route-throughs                 ; 1                    ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
@@ -335,7 +335,7 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ;                                                             ;                      ;                                ;
 ;                                                             ;                      ;                                ;
 ; Virtual pins                                                ; 0                    ; 0                              ;
-; I/O pins                                                    ; 53                   ; 0                              ;
+; I/O pins                                                    ; 55                   ; 0                              ;
 ; I/O registers                                               ; 0                    ; 0                              ;
 ; Total block memory bits                                     ; 4096                 ; 0                              ;
 ; Total block memory implementation bits                      ; 10240                ; 0                              ;
@@ -349,8 +349,8 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 641                  ; 0                              ;
-;     -- Registered Connections                               ; 141                  ; 0                              ;
+;     -- Total Connections                                    ; 655                  ; 0                              ;
+;     -- Registered Connections                               ; 146                  ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
 ;     -- Top                                                  ; 0                    ; 0                              ;
@@ -358,7 +358,7 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ;                                                             ;                      ;                                ;
 ; Partition Interface                                         ;                      ;                                ;
 ;     -- Input Ports                                          ; 3                    ; 0                              ;
-;     -- Output Ports                                         ; 50                   ; 0                              ;
+;     -- Output Ports                                         ; 52                   ; 0                              ;
 ;     -- Bidir Ports                                          ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Registered Ports                                            ;                      ;                                ;
@@ -397,20 +397,21 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; botbotmem1   ; V16   ; 4A       ; 46           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botbotmem2   ; U16   ; 4A       ; 52           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botbotmem3   ; P14   ; 4A       ; 50           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; botbotreg1   ; W21   ; 4A       ; 50           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; botbotreg2   ; AA18  ; 4A       ; 43           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; botbotreg1   ; AA18  ; 4A       ; 43           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; botbotreg2   ; W21   ; 4A       ; 50           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botleftmem0  ; V14   ; 4A       ; 38           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botleftmem1  ; U17   ; 4A       ; 52           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botleftmem2  ; U15   ; 4A       ; 43           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botleftmem3  ; C1    ; 2A       ; 0            ; 21           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; botleftreg1  ; Y22   ; 4A       ; 48           ; 0            ; 91           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; botleftreg2  ; AB18  ; 4A       ; 38           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; botleftreg1  ; AB18  ; 4A       ; 38           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; botleftreg2  ; Y22   ; 4A       ; 48           ; 0            ; 91           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botrightmem0 ; AA10  ; 3B       ; 22           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botrightmem1 ; Y17   ; 4A       ; 40           ; 0            ; 40           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botrightmem2 ; V20   ; 4A       ; 44           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; botrightmem3 ; T14   ; 4A       ; 43           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; botrightreg1 ; W22   ; 4A       ; 48           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; botrightreg2 ; AA19  ; 4A       ; 44           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; botrightreg1 ; AA19  ; 4A       ; 44           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; botrightreg2 ; W22   ; 4A       ; 48           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; clkled       ; L2    ; 2A       ; 0            ; 20           ; 37           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; counter0     ; AA2   ; 2A       ; 0            ; 18           ; 77           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; counter1     ; AA1   ; 2A       ; 0            ; 18           ; 94           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; counter2     ; W2    ; 2A       ; 0            ; 18           ; 60           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
@@ -419,30 +420,31 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; counter5     ; N1    ; 2A       ; 0            ; 19           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; counter6     ; U2    ; 2A       ; 0            ; 19           ; 3            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; counter7     ; U1    ; 2A       ; 0            ; 19           ; 20           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; jumpled      ; L1    ; 2A       ; 0            ; 20           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; midmem0      ; AB21  ; 4A       ; 40           ; 0            ; 74           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; midmem1      ; V19   ; 4A       ; 51           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; midmem2      ; P9    ; 3B       ; 29           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; midmem3      ; W19   ; 4A       ; 44           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; midreg1      ; AA22  ; 4A       ; 46           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; midreg2      ; U22   ; 4A       ; 51           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; midreg1      ; U22   ; 4A       ; 51           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; midreg2      ; AA22  ; 4A       ; 46           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; topleftmem0  ; AB22  ; 4A       ; 46           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; topleftmem1  ; V18   ; 4A       ; 51           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; topleftmem2  ; Y15   ; 4A       ; 36           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; topleftmem3  ; C2    ; 2A       ; 0            ; 21           ; 37           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; topleftreg1  ; Y21   ; 4A       ; 50           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; topleftreg2  ; AA17  ; 4A       ; 43           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; topleftreg1  ; AA17  ; 4A       ; 43           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; topleftreg2  ; Y21   ; 4A       ; 50           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toprightmem0 ; AB17  ; 4A       ; 38           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toprightmem1 ; W16   ; 4A       ; 46           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toprightmem2 ; Y20   ; 4A       ; 48           ; 0            ; 57           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toprightmem3 ; M8    ; 3B       ; 22           ; 0            ; 17           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; toprightreg1 ; V21   ; 4A       ; 51           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; toprightreg2 ; AB20  ; 4A       ; 40           ; 0            ; 91           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; toprightreg1 ; AB20  ; 4A       ; 40           ; 0            ; 91           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; toprightreg2 ; V21   ; 4A       ; 51           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toptopmem0   ; Y19   ; 4A       ; 48           ; 0            ; 40           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toptopmem1   ; Y16   ; 4A       ; 40           ; 0            ; 57           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toptopmem2   ; U20   ; 4A       ; 52           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 ; toptopmem3   ; N9    ; 3B       ; 29           ; 0            ; 0            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; toptopreg1   ; U21   ; 4A       ; 52           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
-; toptopreg2   ; AA20  ; 4A       ; 44           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; toptopreg1   ; AA20  ; 4A       ; 44           ; 0            ; 34           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
+; toptopreg2   ; U21   ; 4A       ; 52           ; 0            ; 51           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; User                 ; -                    ; -                   ;
 +--------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -451,7 +453,7 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 +----------+------------------+---------------+--------------+---------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ; VCCPD Voltage ;
 +----------+------------------+---------------+--------------+---------------+
-; 2A       ; 10 / 16 ( 63 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 2A       ; 12 / 16 ( 75 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 3A       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 3B       ; 5 / 32 ( 16 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 4A       ; 38 / 48 ( 79 % ) ; 2.5V          ; --           ; 2.5V          ;
@@ -505,12 +507,12 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; AA14     ; 111        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA15     ; 116        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA16     ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AA17     ; 127        ; 4A       ; topleftreg2                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AA18     ; 129        ; 4A       ; botbotreg2                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AA19     ; 130        ; 4A       ; botrightreg2                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AA20     ; 132        ; 4A       ; toptopreg2                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA17     ; 127        ; 4A       ; topleftreg1                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA18     ; 129        ; 4A       ; botbotreg1                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA19     ; 130        ; 4A       ; botrightreg1                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA20     ; 132        ; 4A       ; toptopreg1                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AA21     ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AA22     ; 137        ; 4A       ; midreg1                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA22     ; 137        ; 4A       ; midreg2                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AB1      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB2      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB3      ; 55         ; 3A       ; ^AS_DATA1, DATA1                ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
@@ -528,9 +530,9 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; AB15     ; 114        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AB16     ;            ; 4A       ; VREFB4AN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB17     ; 119        ; 4A       ; toprightmem0                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AB18     ; 121        ; 4A       ; botleftreg2                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AB18     ; 121        ; 4A       ; botleftreg1                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AB19     ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; AB20     ; 122        ; 4A       ; toprightreg2                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AB20     ; 122        ; 4A       ; toprightreg1                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AB21     ; 124        ; 4A       ; midmem0                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AB22     ; 135        ; 4A       ; topleftmem0                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; B1       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -731,8 +733,8 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; K20      ; 203        ; 7A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; K21      ; 183        ; 5B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; K22      ; 185        ; 5B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; L1       ; 21         ; 2A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; L2       ; 23         ; 2A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; L1       ; 21         ; 2A       ; jumpled                         ; output ; 2.5 V        ;                     ; Row I/O      ; Y               ; no       ; Off          ;
+; L2       ; 23         ; 2A       ; clkled                          ; output ; 2.5 V        ;                     ; Row I/O      ; Y               ; no       ; Off          ;
 ; L3       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; L4       ;            ; --       ; VCC                             ; power  ;              ; 1.1V                ; --           ;                 ; --       ; --           ;
 ; L5       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -883,8 +885,8 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; U18      ;            ; --       ; VCCA_FPLL                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; U19      ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; U20      ; 153        ; 4A       ; toptopmem2                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; U21      ; 151        ; 4A       ; toptopreg1                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; U22      ; 146        ; 4A       ; midreg2                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; U21      ; 151        ; 4A       ; toptopreg2                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; U22      ; 146        ; 4A       ; midreg1                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V1       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V2       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V3       ; 56         ; 3A       ; ^DCLK                           ;        ;              ;                     ; Weak Pull Up ;                 ; --       ; On           ;
@@ -905,7 +907,7 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; V18      ; 149        ; 4A       ; topleftmem1                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V19      ; 147        ; 4A       ; midmem1                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V20      ; 131        ; 4A       ; botrightmem2                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; V21      ; 148        ; 4A       ; toprightreg1                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; V21      ; 148        ; 4A       ; toprightreg2                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V22      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; W1       ;            ; 2A       ; VREFB2AN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; W2       ; 28         ; 2A       ; counter2                        ; output ; 2.5 V        ;                     ; Row I/O      ; Y               ; no       ; Off          ;
@@ -927,8 +929,8 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; W18      ;            ; --       ; VCC_AUX                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; W19      ; 133        ; 4A       ; midmem3                         ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; W20      ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; W21      ; 145        ; 4A       ; botbotreg1                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; W22      ; 140        ; 4A       ; botrightreg1                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; W21      ; 145        ; 4A       ; botbotreg2                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; W22      ; 140        ; 4A       ; botrightreg2                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; Y1       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y2       ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y3       ; 30         ; 2A       ; counter3                        ; output ; 2.5 V        ;                     ; Row I/O      ; Y               ; no       ; Off          ;
@@ -949,8 +951,8 @@ The pin-out file can be found in C:/Users/14559479/Documents/GitHub/Processador/
 ; Y18      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y19      ; 141        ; 4A       ; toptopmem0                      ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; Y20      ; 139        ; 4A       ; toprightmem2                    ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; Y21      ; 143        ; 4A       ; topleftreg1                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; Y22      ; 138        ; 4A       ; botleftreg1                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; Y21      ; 143        ; 4A       ; topleftreg2                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; Y22      ; 138        ; 4A       ; botleftreg2                     ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 +----------+------------+----------+---------------------------------+--------+--------------+---------------------+--------------+-----------------+----------+--------------+
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
 
@@ -1010,6 +1012,8 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; counter2     ; Incomplete set of assignments ;
 ; counter1     ; Incomplete set of assignments ;
 ; counter0     ; Incomplete set of assignments ;
+; jumpled      ; Incomplete set of assignments ;
+; clkled       ; Incomplete set of assignments ;
 ; MASTER_RESET ; Incomplete set of assignments ;
 ; CLKBUTTON    ; Incomplete set of assignments ;
 ; CLKPLACA     ; Incomplete set of assignments ;
@@ -1021,34 +1025,34 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                               ; Entity Name     ; Library Name ;
 +-------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------+-----------------+--------------+
-; |tricolor                                 ; 62.5 (1.0)           ; 64.5 (1.0)                       ; 2.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 114 (3)             ; 34 (0)                    ; 0 (0)         ; 4096              ; 1     ; 0          ; 53   ; 0            ; |tricolor                                                                         ; tricolor        ; work         ;
-;    |Contador:inst1|                       ; 16.0 (12.5)          ; 17.5 (13.7)                      ; 1.5 (1.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 31 (23)             ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1                                                          ; Contador        ; work         ;
+; |tricolor                                 ; 63.0 (1.3)           ; 64.0 (1.3)                       ; 1.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 115 (3)             ; 34 (0)                    ; 0 (0)         ; 4096              ; 1     ; 0          ; 55   ; 0            ; |tricolor                                                                         ; tricolor        ; work         ;
+;    |Contador:inst1|                       ; 16.0 (12.2)          ; 16.0 (13.2)                      ; 0.0 (1.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 31 (23)             ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1                                                          ; Contador        ; work         ;
 ;       |Jump:inst|                         ; 1.0 (1.0)            ; 1.0 (1.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst                                                ; Jump            ; work         ;
-;       |Jump:inst14|                       ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst14                                              ; Jump            ; work         ;
-;       |Jump:inst15|                       ; 1.0 (1.0)            ; 1.0 (1.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst15                                              ; Jump            ; work         ;
-;       |Jump:inst16|                       ; 0.8 (0.8)            ; 0.8 (0.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst16                                              ; Jump            ; work         ;
-;    |UnidadeControle:inst2|                ; 1.9 (0.6)            ; 1.9 (0.6)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 5 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|UnidadeControle:inst2                                                   ; UnidadeControle ; work         ;
-;       |muxbarula:inst2|                   ; 1.0 (1.0)            ; 1.3 (1.3)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|UnidadeControle:inst2|muxbarula:inst2                                   ; muxbarula       ; work         ;
-;    |aula04:inst10|                        ; 3.2 (3.2)            ; 3.2 (3.2)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst10                                                           ; aula04          ; work         ;
+;       |Jump:inst14|                       ; 0.7 (0.7)            ; 0.7 (0.7)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst14                                              ; Jump            ; work         ;
+;       |Jump:inst15|                       ; 0.8 (0.8)            ; 0.8 (0.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst15                                              ; Jump            ; work         ;
+;       |Jump:inst16|                       ; 0.3 (0.3)            ; 0.3 (0.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|Contador:inst1|Jump:inst16                                              ; Jump            ; work         ;
+;    |UnidadeControle:inst2|                ; 2.0 (0.8)            ; 2.0 (0.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 6 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|UnidadeControle:inst2                                                   ; UnidadeControle ; work         ;
+;       |muxbarula:inst2|                   ; 0.9 (0.9)            ; 1.2 (1.2)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|UnidadeControle:inst2|muxbarula:inst2                                   ; muxbarula       ; work         ;
+;    |aula04:inst10|                        ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst10                                                           ; aula04          ; work         ;
 ;    |aula04:inst11|                        ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst11                                                           ; aula04          ; work         ;
-;    |aula04:inst12|                        ; 3.3 (3.3)            ; 3.3 (3.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst12                                                           ; aula04          ; work         ;
+;    |aula04:inst12|                        ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst12                                                           ; aula04          ; work         ;
 ;    |aula04:inst13|                        ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst13                                                           ; aula04          ; work         ;
 ;    |aula04:inst14|                        ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst14                                                           ; aula04          ; work         ;
 ;    |aula04:inst9|                         ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|aula04:inst9                                                            ; aula04          ; work         ;
 ;    |debouncer:inst15|                     ; 13.0 (13.0)          ; 14.0 (14.0)                      ; 1.0 (1.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 22 (22)             ; 18 (18)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|debouncer:inst15                                                        ; debouncer       ; work         ;
-;    |registrador:inst3|                    ; 1.0 (1.0)            ; 1.2 (1.2)                        ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 4 (4)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|registrador:inst3                                                       ; registrador     ; work         ;
-;    |registrador:inst4|                    ; 1.3 (1.3)            ; 1.3 (1.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 4 (4)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|registrador:inst4                                                       ; registrador     ; work         ;
+;    |registrador:inst3|                    ; 1.2 (1.2)            ; 1.3 (1.3)                        ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 4 (4)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|registrador:inst3                                                       ; registrador     ; work         ;
+;    |registrador:inst4|                    ; 1.2 (1.2)            ; 1.2 (1.2)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 4 (4)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|registrador:inst4                                                       ; registrador     ; work         ;
 ;    |rom:inst|                             ; 0.0 (0.0)            ; 0.0 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 0 (0)                     ; 0 (0)         ; 4096              ; 1     ; 0          ; 0    ; 0            ; |tricolor|rom:inst                                                                ; rom             ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 0.0 (0.0)            ; 0.0 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 0 (0)                     ; 0 (0)         ; 4096              ; 1     ; 0          ; 0    ; 0            ; |tricolor|rom:inst|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
 ;          |altsyncram_i224:auto_generated| ; 0.0 (0.0)            ; 0.0 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 0 (0)                     ; 0 (0)         ; 4096              ; 1     ; 0          ; 0    ; 0            ; |tricolor|rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated ; altsyncram_i224 ; work         ;
-;    |ula:inst5|                            ; 6.7 (0.0)            ; 7.1 (0.0)                        ; 0.4 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 11 (0)              ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5                                                               ; ula             ; work         ;
-;       |aula06:inst100|                    ; 1.5 (0.0)            ; 1.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula06:inst100                                                ; aula06          ; work         ;
-;          |aula05:inst5|                   ; 1.5 (1.5)            ; 1.5 (1.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula06:inst100|aula05:inst5                                   ; aula05          ; work         ;
-;       |aula08:inst2|                      ; 2.5 (0.0)            ; 2.6 (0.0)                        ; 0.1 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 5 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2                                                  ; aula08          ; work         ;
-;          |aula07:inst|                    ; 0.3 (0.3)            ; 0.3 (0.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2|aula07:inst                                      ; aula07          ; work         ;
-;          |aula07:inst3|                   ; 1.8 (1.8)            ; 1.8 (1.8)                        ; 0.1 (0.1)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2|aula07:inst3                                     ; aula07          ; work         ;
-;          |aula07:inst4|                   ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2|aula07:inst4                                     ; aula07          ; work         ;
-;       |muxbarula:inst|                    ; 2.7 (2.7)            ; 3.0 (3.0)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 4 (4)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|muxbarula:inst                                                ; muxbarula       ; work         ;
+;    |ula:inst5|                            ; 6.8 (0.0)            ; 7.2 (0.0)                        ; 0.4 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 11 (0)              ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5                                                               ; ula             ; work         ;
+;       |aula06:inst100|                    ; 1.3 (0.0)            ; 1.3 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula06:inst100                                                ; aula06          ; work         ;
+;          |aula05:inst5|                   ; 1.3 (1.3)            ; 1.3 (1.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 2 (2)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula06:inst100|aula05:inst5                                   ; aula05          ; work         ;
+;       |aula08:inst2|                      ; 2.6 (0.0)            ; 3.0 (0.0)                        ; 0.4 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 5 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2                                                  ; aula08          ; work         ;
+;          |aula07:inst|                    ; 0.3 (0.3)            ; 0.3 (0.3)                        ; 0.1 (0.1)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2|aula07:inst                                      ; aula07          ; work         ;
+;          |aula07:inst3|                   ; 1.8 (1.8)            ; 2.3 (2.3)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2|aula07:inst3                                     ; aula07          ; work         ;
+;          |aula07:inst4|                   ; 0.3 (0.3)            ; 0.3 (0.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|aula08:inst2|aula07:inst4                                     ; aula07          ; work         ;
+;       |muxbarula:inst|                    ; 2.7 (2.7)            ; 2.8 (2.8)                        ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 4 (4)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |tricolor|ula:inst5|muxbarula:inst                                                ; muxbarula       ; work         ;
 +-------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1108,31 +1112,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; counter2     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; counter1     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; counter0     ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; jumpled      ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
+; clkled       ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; MASTER_RESET ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; CLKBUTTON    ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; CLKPLACA     ; Input    ; -- ; (0)  ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 +--------------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                            ;
-+---------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                         ; Pad To Core Index ; Setting ;
-+---------------------------------------------+-------------------+---------+
-; MASTER_RESET                                ;                   ;         ;
-;      - inst6                                ; 0                 ; 0       ;
-;      - inst8                                ; 0                 ; 0       ;
-;      - Contador:inst1|Jump:inst|inst1       ; 0                 ; 0       ;
-;      - Contador:inst1|Jump:inst14|inst1     ; 0                 ; 0       ;
-;      - Contador:inst1|Jump:inst15|inst1     ; 0                 ; 0       ;
-;      - Contador:inst1|Jump:inst16|inst1     ; 0                 ; 0       ;
-; CLKBUTTON                                   ;                   ;         ;
-;      - debouncer:inst15|out_key~1           ; 0                 ; 0       ;
-;      - debouncer:inst15|always0~0           ; 0                 ; 0       ;
-;      - debouncer:inst15|intermediate~feeder ; 0                 ; 0       ;
-; CLKPLACA                                    ;                   ;         ;
-;      - debouncer:inst15|out_key             ; 1                 ; 0       ;
-+---------------------------------------------+-------------------+---------+
++-----------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                        ;
++-----------------------------------------+-------------------+---------+
+; Source Pin / Fanout                     ; Pad To Core Index ; Setting ;
++-----------------------------------------+-------------------+---------+
+; MASTER_RESET                            ;                   ;         ;
+;      - inst6                            ; 0                 ; 0       ;
+;      - inst8                            ; 0                 ; 0       ;
+;      - Contador:inst1|Jump:inst16|inst1 ; 0                 ; 0       ;
+;      - Contador:inst1|Jump:inst15|inst1 ; 0                 ; 0       ;
+;      - Contador:inst1|Jump:inst14|inst1 ; 0                 ; 0       ;
+;      - Contador:inst1|Jump:inst|inst1   ; 0                 ; 0       ;
+; CLKBUTTON                               ;                   ;         ;
+;      - debouncer:inst15|intermediate    ; 0                 ; 0       ;
+;      - debouncer:inst15|out_key~1       ; 0                 ; 0       ;
+;      - debouncer:inst15|always0~0       ; 0                 ; 0       ;
+; CLKPLACA                                ;                   ;         ;
+;      - debouncer:inst15|out_key         ; 1                 ; 0       ;
++-----------------------------------------+-------------------+---------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1142,17 +1148,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+---------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; CLKPLACA                      ; PIN_M9              ; 2       ; Clock        ; no     ; --                   ; --               ; --                        ;
 ; CLKPLACA                      ; PIN_M9              ; 17      ; Clock        ; yes    ; Global Clock         ; GCLK6            ; --                        ;
-; Contador:inst1|inst1~0        ; LABCELL_X41_Y1_N54  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; Contador:inst1|inst3183278~0  ; LABCELL_X39_Y1_N27  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; Contador:inst1|inst3~0        ; LABCELL_X39_Y1_N36  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; Contador:inst1|inst5~0        ; LABCELL_X40_Y1_N21  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; UnidadeControle:inst2|inst4~0 ; MLABCELL_X42_Y1_N21 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; UnidadeControle:inst2|inst9~0 ; LABCELL_X41_Y1_N21  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; debouncer:inst15|always0~0    ; MLABCELL_X37_Y1_N48 ; 16      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; debouncer:inst15|out_key      ; FF_X37_Y1_N53       ; 18      ; Clock        ; no     ; --                   ; --               ; --                        ;
-; debouncer:inst15|out_key~4    ; LABCELL_X36_Y1_N54  ; 16      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; inst6                         ; MLABCELL_X42_Y1_N42 ; 8       ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; inst8                         ; LABCELL_X40_Y1_N57  ; 4       ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; Contador:inst1|inst1~0        ; LABCELL_X40_Y3_N18  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; Contador:inst1|inst3183278~0  ; LABCELL_X36_Y3_N24  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; Contador:inst1|inst3~0        ; LABCELL_X40_Y3_N39  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; Contador:inst1|inst5~0        ; LABCELL_X39_Y3_N27  ; 1       ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; UnidadeControle:inst2|inst4~0 ; MLABCELL_X37_Y3_N51 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; UnidadeControle:inst2|inst9~0 ; MLABCELL_X37_Y3_N24 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; debouncer:inst15|always0~0    ; LABCELL_X40_Y4_N48  ; 16      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; debouncer:inst15|out_key      ; FF_X39_Y4_N44       ; 19      ; Clock        ; no     ; --                   ; --               ; --                        ;
+; debouncer:inst15|out_key~4    ; LABCELL_X41_Y4_N54  ; 16      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; inst6                         ; MLABCELL_X37_Y3_N12 ; 8       ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; inst8                         ; LABCELL_X40_Y3_N57  ; 4       ; Async. clear ; no     ; --                   ; --               ; --                        ;
 +-------------------------------+---------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1170,7 +1176,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+-------------+-------+--------------+----------------+----------------------+-----------------+-----------------+----------+------------------------+------------------------+
 ; Name                                                                               ; Type ; Mode ; Clock Mode   ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Port A Input Registers ; Port A Output Registers ; Port B Input Registers ; Port B Output Registers ; Size ; Implementation Port A Depth ; Implementation Port A Width ; Implementation Port B Depth ; Implementation Port B Width ; Implementation Bits ; M10K blocks ; MLABs ; MIF          ; Location       ; Mixed Width RDW Mode ; Port A RDW Mode ; Port B RDW Mode ; ECC Mode ; ECC Pipeline Registers ; Fits in MLABs          ;
 +------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+-------------+-------+--------------+----------------+----------------------+-----------------+-----------------+----------+------------------------+------------------------+
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 16           ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 4096 ; 256                         ; 16                          ; --                          ; --                          ; 4096                ; 1           ; 0     ; ../Mem01.mif ; M10K_X38_Y1_N0 ; Don't care           ; New data        ; New data        ; Off      ; No                     ; No - Unsupported Depth ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 16           ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 4096 ; 256                         ; 16                          ; --                          ; --                          ; 4096                ; 1           ; 0     ; ../Mem01.mif ; M10K_X38_Y3_N0 ; Don't care           ; New data        ; New data        ; Off      ; No                     ; No - Unsupported Depth ;
 +------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+-------------+-------+--------------+----------------+----------------------+-----------------+-----------------+----------+------------------------+------------------------+
 Note: Fitter may spread logical memories into multiple blocks to improve timing. The actual required RAM blocks can be found in the Fitter Resource Usage section.
 
@@ -1180,21 +1186,21 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +------------------------------+-------------------------+
 ; Routing Resource Type        ; Usage                   ;
 +------------------------------+-------------------------+
-; Block interconnects          ; 202 / 140,056 ( < 1 % ) ;
-; C12 interconnects            ; 1 / 6,048 ( < 1 % )     ;
-; C2 interconnects             ; 43 / 54,648 ( < 1 % )   ;
-; C4 interconnects             ; 33 / 25,920 ( < 1 % )   ;
+; Block interconnects          ; 210 / 140,056 ( < 1 % ) ;
+; C12 interconnects            ; 6 / 6,048 ( < 1 % )     ;
+; C2 interconnects             ; 32 / 54,648 ( < 1 % )   ;
+; C4 interconnects             ; 78 / 25,920 ( < 1 % )   ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )          ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )          ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )          ;
-; Direct links                 ; 27 / 140,056 ( < 1 % )  ;
+; Direct links                 ; 39 / 140,056 ( < 1 % )  ;
 ; Global clocks                ; 1 / 16 ( 6 % )          ;
-; Local interconnects          ; 54 / 36,960 ( < 1 % )   ;
+; Local interconnects          ; 52 / 36,960 ( < 1 % )   ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )          ;
-; R14 interconnects            ; 16 / 5,984 ( < 1 % )    ;
-; R14/C12 interconnect drivers ; 17 / 9,504 ( < 1 % )    ;
-; R3 interconnects             ; 106 / 60,192 ( < 1 % )  ;
-; R6 interconnects             ; 90 / 127,072 ( < 1 % )  ;
+; R14 interconnects            ; 41 / 5,984 ( < 1 % )    ;
+; R14/C12 interconnect drivers ; 46 / 9,504 ( < 1 % )    ;
+; R3 interconnects             ; 111 / 60,192 ( < 1 % )  ;
+; R6 interconnects             ; 102 / 127,072 ( < 1 % ) ;
 ; Spine clocks                 ; 1 / 120 ( < 1 % )       ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )       ;
 +------------------------------+-------------------------+
@@ -1255,9 +1261,9 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Total Pass         ; 53        ; 0            ; 53        ; 0            ; 0            ; 53        ; 53        ; 0            ; 53        ; 53        ; 0            ; 50           ; 0            ; 0            ; 0            ; 0            ; 50           ; 0            ; 0            ; 0            ; 0            ; 50           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Pass         ; 55        ; 0            ; 55        ; 0            ; 0            ; 55        ; 55        ; 0            ; 55        ; 55        ; 0            ; 52           ; 0            ; 0            ; 0            ; 0            ; 52           ; 0            ; 0            ; 0            ; 0            ; 52           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 53           ; 0         ; 53           ; 53           ; 0         ; 0         ; 53           ; 0         ; 0         ; 53           ; 3            ; 53           ; 53           ; 53           ; 53           ; 3            ; 53           ; 53           ; 53           ; 53           ; 3            ; 53           ; 53           ; 53           ; 53           ; 53           ; 53           ;
+; Total Inapplicable ; 0         ; 55           ; 0         ; 55           ; 55           ; 0         ; 0         ; 55           ; 0         ; 0         ; 55           ; 3            ; 55           ; 55           ; 55           ; 55           ; 3            ; 55           ; 55           ; 55           ; 55           ; 3            ; 55           ; 55           ; 55           ; 55           ; 55           ; 55           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; toptopreg1         ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; toprightreg1       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -1309,6 +1315,8 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; counter2           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; counter1           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; counter0           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; jumpled            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; clkled             ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; MASTER_RESET       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; CLKBUTTON          ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; CLKPLACA           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -1363,10 +1371,10 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +------------------------------+--------------------------+-------------------+
 ; Source Clock(s)              ; Destination Clock(s)     ; Delay Added in ns ;
 +------------------------------+--------------------------+-------------------+
-; debouncer:inst15|out_key     ; debouncer:inst15|out_key ; 11.8              ;
-; debouncer:inst15|out_key,I/O ; debouncer:inst15|out_key ; 10.2              ;
-; CLKPLACA                     ; CLKPLACA                 ; 3.3               ;
-; CLKPLACA,I/O                 ; CLKPLACA                 ; 2.3               ;
+; debouncer:inst15|out_key     ; debouncer:inst15|out_key ; 12.3              ;
+; debouncer:inst15|out_key,I/O ; debouncer:inst15|out_key ; 7.9               ;
+; CLKPLACA                     ; CLKPLACA                 ; 2.8               ;
+; CLKPLACA,I/O                 ; CLKPLACA                 ; 2.2               ;
 +------------------------------+--------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
@@ -1377,55 +1385,55 @@ This will disable optimization of problematic paths and expose them for further 
 +----------------------------------------------------------------------------------------------------------+--------------------------------+-------------------+
 ; Source Register                                                                                          ; Destination Register           ; Delay Added in ns ;
 +----------------------------------------------------------------------------------------------------------+--------------------------------+-------------------+
-; debouncer:inst15|out_key                                                                                 ; debouncer:inst15|out_key       ; 5.586             ;
-; debouncer:inst15|counter[15]                                                                             ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[14]                                                                             ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[12]                                                                             ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[11]                                                                             ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[10]                                                                             ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[9]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[7]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[6]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[5]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[4]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[3]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[2]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[1]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[0]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|intermediate                                                                            ; debouncer:inst15|out_key       ; 2.334             ;
-; CLKBUTTON                                                                                                ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[13]                                                                             ; debouncer:inst15|out_key       ; 2.334             ;
-; debouncer:inst15|counter[8]                                                                              ; debouncer:inst15|out_key       ; 2.334             ;
-; registrador:inst4|inst3                                                                                  ; registrador:inst4|inst3        ; 1.233             ;
-; registrador:inst3|inst1                                                                                  ; registrador:inst3|inst2        ; 1.213             ;
-; registrador:inst3|inst                                                                                   ; registrador:inst3|inst2        ; 1.194             ;
-; registrador:inst3|inst2                                                                                  ; registrador:inst4|inst3        ; 1.163             ;
-; Contador:inst1|inst3~_emulated                                                                           ; Contador:inst1|inst3~_emulated ; 1.139             ;
-; Contador:inst1|inst5~_emulated                                                                           ; Contador:inst1|inst5~_emulated ; 1.105             ;
-; registrador:inst4|inst2                                                                                  ; registrador:inst3|inst2        ; 1.077             ;
-; Contador:inst1|inst3183278~_emulated                                                                     ; Contador:inst1|inst3~_emulated ; 1.073             ;
-; Contador:inst1|inst1~_emulated                                                                           ; Contador:inst1|inst5~_emulated ; 0.917             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a2~porta_address_reg0  ; Contador:inst1|inst3~_emulated ; 0.911             ;
-; Contador:inst1|inst3~1                                                                                   ; Contador:inst1|inst3~_emulated ; 0.911             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a11~porta_address_reg0 ; Contador:inst1|inst3~_emulated ; 0.911             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a10~porta_address_reg0 ; Contador:inst1|inst3~_emulated ; 0.911             ;
-; MASTER_RESET                                                                                             ; Contador:inst1|inst3~_emulated ; 0.911             ;
-; Contador:inst1|inst5~1                                                                                   ; Contador:inst1|inst5~_emulated ; 0.899             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a3~porta_address_reg0  ; Contador:inst1|inst5~_emulated ; 0.899             ;
-; registrador:inst3|inst3                                                                                  ; registrador:inst4|inst3        ; 0.859             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a13~porta_address_reg0 ; registrador:inst4|inst3        ; 0.859             ;
-; Contador:inst1|inst3183278~1                                                                             ; Contador:inst1|inst3~_emulated ; 0.851             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a0~porta_address_reg0  ; Contador:inst1|inst3~_emulated ; 0.851             ;
-; registrador:inst4|inst                                                                                   ; registrador:inst3|inst2        ; 0.840             ;
-; Contador:inst1|inst1~1                                                                                   ; Contador:inst1|inst5~_emulated ; 0.838             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a1~porta_address_reg0  ; Contador:inst1|inst5~_emulated ; 0.838             ;
-; Contador:inst1|inst9                                                                                     ; Contador:inst1|inst13          ; 0.818             ;
-; registrador:inst4|inst1                                                                                  ; registrador:inst3|inst2        ; 0.818             ;
-; Contador:inst1|inst7                                                                                     ; Contador:inst1|inst9           ; 0.794             ;
-; Contador:inst1|inst11                                                                                    ; Contador:inst1|inst13          ; 0.494             ;
-; Contador:inst1|inst13                                                                                    ; Contador:inst1|inst13          ; 0.494             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a8~porta_address_reg0  ; registrador:inst3|inst         ; 0.277             ;
-; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a9~porta_address_reg0  ; registrador:inst3|inst         ; 0.277             ;
+; debouncer:inst15|out_key                                                                                 ; debouncer:inst15|out_key       ; 4.992             ;
+; debouncer:inst15|counter[15]                                                                             ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[14]                                                                             ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[12]                                                                             ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[11]                                                                             ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[10]                                                                             ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[9]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[7]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[6]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[5]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[4]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[3]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[2]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[1]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[0]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|intermediate                                                                            ; debouncer:inst15|out_key       ; 2.183             ;
+; CLKBUTTON                                                                                                ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[13]                                                                             ; debouncer:inst15|out_key       ; 2.183             ;
+; debouncer:inst15|counter[8]                                                                              ; debouncer:inst15|out_key       ; 2.183             ;
+; registrador:inst4|inst3                                                                                  ; registrador:inst4|inst3        ; 1.172             ;
+; Contador:inst1|inst5~_emulated                                                                           ; Contador:inst1|inst5~_emulated ; 1.166             ;
+; registrador:inst4|inst                                                                                   ; registrador:inst3|inst1        ; 1.155             ;
+; registrador:inst3|inst1                                                                                  ; registrador:inst3|inst1        ; 1.075             ;
+; registrador:inst3|inst2                                                                                  ; registrador:inst4|inst3        ; 0.962             ;
+; Contador:inst1|inst3~_emulated                                                                           ; Contador:inst1|inst5~_emulated ; 0.954             ;
+; registrador:inst4|inst2                                                                                  ; registrador:inst3|inst2        ; 0.903             ;
+; registrador:inst3|inst3                                                                                  ; registrador:inst4|inst3        ; 0.848             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a13~porta_address_reg0 ; registrador:inst4|inst3        ; 0.848             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a3~porta_address_reg0  ; registrador:inst4|inst3        ; 0.848             ;
+; Contador:inst1|inst9                                                                                     ; Contador:inst1|inst13          ; 0.810             ;
+; Contador:inst1|inst7                                                                                     ; Contador:inst1|inst9           ; 0.807             ;
+; Contador:inst1|inst3~1                                                                                   ; Contador:inst1|inst5~_emulated ; 0.798             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a2~porta_address_reg0  ; Contador:inst1|inst5~_emulated ; 0.798             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a11~porta_address_reg0 ; Contador:inst1|inst5~_emulated ; 0.798             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a10~porta_address_reg0 ; Contador:inst1|inst5~_emulated ; 0.798             ;
+; MASTER_RESET                                                                                             ; Contador:inst1|inst5~_emulated ; 0.798             ;
+; Contador:inst1|inst5~1                                                                                   ; Contador:inst1|inst5~_emulated ; 0.794             ;
+; Contador:inst1|inst3183278~_emulated                                                                     ; Contador:inst1|inst3~_emulated ; 0.741             ;
+; Contador:inst1|inst1~_emulated                                                                           ; Contador:inst1|inst5~_emulated ; 0.727             ;
+; registrador:inst3|inst                                                                                   ; registrador:inst3|inst1        ; 0.725             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a0~porta_address_reg0  ; Contador:inst1|inst3~_emulated ; 0.700             ;
+; Contador:inst1|inst3183278~1                                                                             ; Contador:inst1|inst3~_emulated ; 0.700             ;
+; registrador:inst4|inst1                                                                                  ; registrador:inst3|inst2        ; 0.694             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a1~porta_address_reg0  ; Contador:inst1|inst5~_emulated ; 0.590             ;
+; Contador:inst1|inst1~1                                                                                   ; Contador:inst1|inst5~_emulated ; 0.590             ;
+; Contador:inst1|inst11                                                                                    ; Contador:inst1|inst11          ; 0.430             ;
+; Contador:inst1|inst13                                                                                    ; Contador:inst1|inst13          ; 0.424             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a8~porta_address_reg0  ; registrador:inst4|inst         ; 0.204             ;
+; rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|ram_block1a9~porta_address_reg0  ; registrador:inst4|inst         ; 0.204             ;
 +----------------------------------------------------------------------------------------------------------+--------------------------------+-------------------+
 Note: This table only shows the top 49 path(s) that have the largest delay added for hold.
 
@@ -1455,7 +1463,7 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Tim
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:04
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:05
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
@@ -1468,7 +1476,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.65 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.52 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1476,10 +1484,10 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
 Info (144001): Generated suppressed messages file C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/output_files/tricolor.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6284 megabytes
-    Info: Processing ended: Tue Oct  3 14:20:32 2023
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:32
+    Info: Peak virtual memory: 6282 megabytes
+    Info: Processing ended: Tue Oct  3 15:00:51 2023
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +----------------------------+

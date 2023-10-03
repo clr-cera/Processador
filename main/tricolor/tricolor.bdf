@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 32 -168 200 -152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLKPLACA" (rect 5 0 63 12)(font "Arial" ))
+	(text "CLKPLACA" (rect 5 0 62 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 32 -136 200 -120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLKBUTTON" (rect 5 0 67 17)(font "Intel Clear" ))
+	(text "CLKBUTTON" (rect 5 0 66 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -920,6 +920,40 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 1440 640 1504 664))
+)
+(pin
+	(output)
+	(rect 1240 -632 1416 -616)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "jumpled" (rect 90 0 128 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1416 -616 1472 -592))
+)
+(pin
+	(output)
+	(rect 1240 -600 1416 -584)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "clkled" (rect 90 0 118 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1416 -584 1472 -560))
 )
 (symbol
 	(rect 248 -8 384 120)
@@ -2048,7 +2082,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -104 -160 -88 -128)
+	(rect -40 -160 -24 -128)
 	(text "VCC" (rect 0 5 10 25)(font "Arial" (font_size 6))(vertical))
 	(text "inst19" (rect 5 1 22 29)(font "Intel Clear" )(vertical)(invisible))
 	(port
@@ -2661,59 +2695,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 1264 616)
-	(pt 1240 616)
-)
-(connector
-	(pt 1264 600)
-	(pt 1240 600)
-)
-(connector
-	(pt 1264 584)
-	(pt 1240 584)
-)
-(connector
-	(pt 1240 584)
-	(pt 1240 600)
-	(bus)
-)
-(connector
-	(pt 1264 568)
-	(pt 1240 568)
-)
-(connector
-	(pt 1240 568)
-	(pt 1240 584)
-	(bus)
-)
-(connector
-	(pt 1264 552)
-	(pt 1240 552)
-)
-(connector
-	(pt 1240 552)
-	(pt 1240 568)
-	(bus)
-)
-(connector
-	(pt 1264 536)
-	(pt 1240 536)
-)
-(connector
-	(pt 1240 536)
-	(pt 1240 552)
-	(bus)
-)
-(connector
-	(pt 1264 520)
-	(pt 1240 520)
-)
-(connector
-	(pt 1240 520)
-	(pt 1240 536)
-	(bus)
-)
-(connector
 	(text "CLK" (rect 402 -176 422 -159)(font "Intel Clear" ))
 	(pt 392 -160)
 	(pt 432 -160)
@@ -2722,22 +2703,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "MASTER_RESET" (rect 88 -80 165 -63)(font "Intel Clear" ))
 	(pt 88 -64)
 	(pt 120 -64)
-)
-(connector
-	(pt 1264 632)
-	(pt 1240 632)
-)
-(connector
-	(text "conta[7..0]" (rect 1224 588 1241 637)(font "Intel Clear" )(vertical)(invisible))
-	(pt 1240 600)
-	(pt 1240 616)
-	(bus)
-)
-(connector
-	(text "conta[7..0]" (rect 1224 590 1241 639)(font "Intel Clear" )(vertical)(invisible))
-	(pt 1240 616)
-	(pt 1240 632)
-	(bus)
 )
 (connector
 	(text "CLK" (rect 114 72 134 89)(font "Intel Clear" ))
@@ -2778,8 +2743,94 @@ https://fpgasoftware.intel.com/eula.
 	(pt 984 408)
 )
 (connector
-	(pt -88 -144)
 	(pt 200 -144)
+	(pt -24 -144)
+)
+(connector
+	(text "CLK" (rect 1210 -608 1230 -591)(font "Intel Clear" ))
+	(pt 1200 -592)
+	(pt 1240 -592)
+)
+(connector
+	(text "JUMP" (rect 1210 -640 1239 -623)(font "Intel Clear" ))
+	(pt 1200 -624)
+	(pt 1240 -624)
+)
+(connector
+	(text "conta[0]" (rect 1192 616 1230 633)(font "Intel Clear" ))
+	(pt 1264 632)
+	(pt 1192 632)
+)
+(connector
+	(pt 1192 568)
+	(pt 1192 584)
+	(bus)
+)
+(connector
+	(pt 1192 552)
+	(pt 1192 568)
+	(bus)
+)
+(connector
+	(pt 1192 520)
+	(pt 1192 536)
+	(bus)
+)
+(connector
+	(pt 1192 536)
+	(pt 1192 552)
+	(bus)
+)
+(connector
+	(pt 1192 584)
+	(pt 1192 600)
+	(bus)
+)
+(connector
+	(text "conta[7..0]" (rect 1176 590 1193 639)(font "Intel Clear" )(vertical)(invisible))
+	(pt 1192 600)
+	(pt 1192 616)
+	(bus)
+)
+(connector
+	(pt 1192 616)
+	(pt 1192 632)
+	(bus)
+)
+(connector
+	(text "conta[1]" (rect 1202 600 1240 617)(font "Intel Clear" ))
+	(pt 1264 616)
+	(pt 1192 616)
+)
+(connector
+	(text "conta[2]" (rect 1202 584 1240 601)(font "Intel Clear" ))
+	(pt 1264 600)
+	(pt 1192 600)
+)
+(connector
+	(text "conta[3]" (rect 1202 568 1240 585)(font "Intel Clear" ))
+	(pt 1264 584)
+	(pt 1192 584)
+)
+(connector
+	(text "conta[4]" (rect 1202 552 1240 569)(font "Intel Clear" ))
+	(pt 1264 568)
+	(pt 1192 568)
+)
+(connector
+	(text "conta[5]" (rect 1202 536 1240 553)(font "Intel Clear" ))
+	(pt 1264 552)
+	(pt 1192 552)
+)
+(connector
+	(text "conta[6]" (rect 1202 520 1240 537)(font "Intel Clear" ))
+	(pt 1264 536)
+	(pt 1192 536)
+)
+(connector
+	(text "conta[7]" (rect 1202 504 1240 521)(font "Intel Clear" ))
+	(pt 1264 520)
+	(pt 1192 520)
 )
 (junction (pt 752 200))
 (junction (pt 936 304))
@@ -2811,10 +2862,10 @@ https://fpgasoftware.intel.com/eula.
 (junction (pt 1152 -40))
 (junction (pt 1152 -24))
 (junction (pt 1152 -8))
-(junction (pt 1240 616))
-(junction (pt 1240 600))
-(junction (pt 1240 584))
-(junction (pt 1240 568))
-(junction (pt 1240 552))
-(junction (pt 1240 536))
 (junction (pt 536 520))
+(junction (pt 1192 584))
+(junction (pt 1192 600))
+(junction (pt 1192 568))
+(junction (pt 1192 552))
+(junction (pt 1192 536))
+(junction (pt 1192 616))

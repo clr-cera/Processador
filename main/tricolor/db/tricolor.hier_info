@@ -46,14 +46,16 @@ topleftmem3 <= aula04:inst11.topleft
 midmem3 <= aula04:inst11.mid
 topleftmem1 <= aula04:inst13.topleft
 topleftmem2 <= aula04:inst12.topleft
-counter7 <= <GND>
-counter6 <= <GND>
-counter5 <= <GND>
-counter4 <= <GND>
-counter3 <= <GND>
-counter2 <= <GND>
-counter1 <= <GND>
-counter0 <= <GND>
+counter7 <= conta[7].DB_MAX_OUTPUT_PORT_TYPE
+counter6 <= conta[6].DB_MAX_OUTPUT_PORT_TYPE
+counter5 <= conta[5].DB_MAX_OUTPUT_PORT_TYPE
+counter4 <= conta[4].DB_MAX_OUTPUT_PORT_TYPE
+counter3 <= conta[3].DB_MAX_OUTPUT_PORT_TYPE
+counter2 <= conta[2].DB_MAX_OUTPUT_PORT_TYPE
+counter1 <= conta[1].DB_MAX_OUTPUT_PORT_TYPE
+counter0 <= conta[0].DB_MAX_OUTPUT_PORT_TYPE
+jumpled <= JUMP.DB_MAX_OUTPUT_PORT_TYPE
+clkled <= CLK.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |tricolor|aula04:inst9
@@ -190,20 +192,20 @@ saida[3] <= resultado[3].DB_MAX_OUTPUT_PORT_TYPE
 control0 => muxbarula:inst.control0
 control1 => muxbarula:inst.control1
 A[0] => aula06:inst100.x1
-A[0] => aula08:inst2.2bit0
 A[0] => aula10:inst3.0bit0
+A[0] => aula08:inst2.2bit0
 A[0] => aula11:inst4.0bit0
 A[1] => aula06:inst100.x2
-A[1] => aula08:inst2.2bit1
 A[1] => aula10:inst3.0bit1
+A[1] => aula08:inst2.2bit1
 A[1] => aula11:inst4.0bit1
 A[2] => aula06:inst100.x3
-A[2] => aula08:inst2.2bit2
 A[2] => aula10:inst3.0bit2
+A[2] => aula08:inst2.2bit2
 A[2] => aula11:inst4.0bit2
 A[3] => aula06:inst100.x4
-A[3] => aula08:inst2.2bit3
 A[3] => aula10:inst3.0bit3
+A[3] => aula08:inst2.2bit3
 A[3] => aula11:inst4.0bit3
 B[0] => aula06:inst100.y1
 B[0] => aula08:inst2.1bit0
@@ -314,74 +316,6 @@ c => inst8.IN1
 c => inst3.IN1
 c => inst4.IN1
 cn <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|tricolor|ula:inst5|aula08:inst2
-r0 <= aula07:inst5.S
-1bit0 => aula07:inst5.bit0
-2bit0 => aula07:inst5.bit1
-r1 <= aula07:inst4.S
-1bit1 => aula07:inst4.bit0
-2bit1 => aula07:inst4.bit1
-r2 <= aula07:inst3.S
-1bit2 => aula07:inst3.bit0
-2bit2 => aula07:inst3.bit1
-r3 <= aula07:inst.S
-1bit3 => aula07:inst.bit0
-2bit3 => aula07:inst.bit1
-overflow <= aula07:inst.Borrowout
-
-
-|tricolor|ula:inst5|aula08:inst2|aula07:inst5
-Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-bit0 => inst3.IN0
-bit0 => inst.IN0
-Borrowin => inst6.IN1
-Borrowin => inst7.IN0
-Borrowin => inst2.IN1
-bit1 => inst7.IN1
-bit1 => inst5.IN1
-bit1 => inst.IN1
-S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|tricolor|ula:inst5|aula08:inst2|aula07:inst4
-Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-bit0 => inst3.IN0
-bit0 => inst.IN0
-Borrowin => inst6.IN1
-Borrowin => inst7.IN0
-Borrowin => inst2.IN1
-bit1 => inst7.IN1
-bit1 => inst5.IN1
-bit1 => inst.IN1
-S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|tricolor|ula:inst5|aula08:inst2|aula07:inst3
-Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-bit0 => inst3.IN0
-bit0 => inst.IN0
-Borrowin => inst6.IN1
-Borrowin => inst7.IN0
-Borrowin => inst2.IN1
-bit1 => inst7.IN1
-bit1 => inst5.IN1
-bit1 => inst.IN1
-S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|tricolor|ula:inst5|aula08:inst2|aula07:inst
-Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-bit0 => inst3.IN0
-bit0 => inst.IN0
-Borrowin => inst6.IN1
-Borrowin => inst7.IN0
-Borrowin => inst2.IN1
-bit1 => inst7.IN1
-bit1 => inst5.IN1
-bit1 => inst.IN1
-S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |tricolor|ula:inst5|aula10:inst3
@@ -590,6 +524,74 @@ c => inst8.IN1
 c => inst3.IN1
 c => inst4.IN1
 cn <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tricolor|ula:inst5|aula08:inst2
+r0 <= aula07:inst5.S
+1bit0 => aula07:inst5.bit0
+2bit0 => aula07:inst5.bit1
+r1 <= aula07:inst4.S
+1bit1 => aula07:inst4.bit0
+2bit1 => aula07:inst4.bit1
+r2 <= aula07:inst3.S
+1bit2 => aula07:inst3.bit0
+2bit2 => aula07:inst3.bit1
+r3 <= aula07:inst.S
+1bit3 => aula07:inst.bit0
+2bit3 => aula07:inst.bit1
+overflow <= aula07:inst.Borrowout
+
+
+|tricolor|ula:inst5|aula08:inst2|aula07:inst5
+Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+bit0 => inst3.IN0
+bit0 => inst.IN0
+Borrowin => inst6.IN1
+Borrowin => inst7.IN0
+Borrowin => inst2.IN1
+bit1 => inst7.IN1
+bit1 => inst5.IN1
+bit1 => inst.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tricolor|ula:inst5|aula08:inst2|aula07:inst4
+Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+bit0 => inst3.IN0
+bit0 => inst.IN0
+Borrowin => inst6.IN1
+Borrowin => inst7.IN0
+Borrowin => inst2.IN1
+bit1 => inst7.IN1
+bit1 => inst5.IN1
+bit1 => inst.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tricolor|ula:inst5|aula08:inst2|aula07:inst3
+Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+bit0 => inst3.IN0
+bit0 => inst.IN0
+Borrowin => inst6.IN1
+Borrowin => inst7.IN0
+Borrowin => inst2.IN1
+bit1 => inst7.IN1
+bit1 => inst5.IN1
+bit1 => inst.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tricolor|ula:inst5|aula08:inst2|aula07:inst
+Borrowout <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+bit0 => inst3.IN0
+bit0 => inst.IN0
+Borrowin => inst6.IN1
+Borrowin => inst7.IN0
+Borrowin => inst2.IN1
+bit1 => inst7.IN1
+bit1 => inst5.IN1
+bit1 => inst.IN1
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |tricolor|ula:inst5|aula11:inst4

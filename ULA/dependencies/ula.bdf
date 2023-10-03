@@ -921,16 +921,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1008 784)
 )
 (connector
-	(pt 1344 360)
-	(pt 1032 360)
-	(bus)
-)
-(connector
-	(pt 1344 376)
-	(pt 1056 376)
-	(bus)
-)
-(connector
 	(pt 1024 528)
 	(pt 1024 544)
 	(bus)
@@ -1038,6 +1028,46 @@ https://fpgasoftware.intel.com/eula.
 	(text "resultado[3..0]" (rect 1490 296 1558 313)(font "Intel Clear" ))
 	(pt 1480 312)
 	(pt 1568 312)
+	(bus)
+)
+(connector
+	(pt 1056 376)
+	(pt 1272 376)
+	(bus)
+)
+(connector
+	(pt 1296 360)
+	(pt 1296 376)
+	(bus)
+)
+(connector
+	(pt 1032 360)
+	(pt 1296 360)
+	(bus)
+)
+(connector
+	(pt 1296 376)
+	(pt 1344 376)
+	(bus)
+)
+(connector
+	(pt 1272 376)
+	(pt 1272 352)
+	(bus)
+)
+(connector
+	(pt 1272 352)
+	(pt 1312 352)
+	(bus)
+)
+(connector
+	(pt 1312 352)
+	(pt 1312 360)
+	(bus)
+)
+(connector
+	(pt 1312 360)
+	(pt 1344 360)
 	(bus)
 )
 (junction (pt 856 640))

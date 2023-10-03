@@ -113,12 +113,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AA13      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA14      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA15      :        :                   :         : 4A        :                
 VCCIO4A                      : AA16      : power  :                   : 2.5V    : 4A        :                
-topleftreg2                  : AA17      : output : 2.5 V             :         : 4A        : Y              
-botbotreg2                   : AA18      : output : 2.5 V             :         : 4A        : Y              
-botrightreg2                 : AA19      : output : 2.5 V             :         : 4A        : Y              
-toptopreg2                   : AA20      : output : 2.5 V             :         : 4A        : Y              
+topleftreg1                  : AA17      : output : 2.5 V             :         : 4A        : Y              
+botbotreg1                   : AA18      : output : 2.5 V             :         : 4A        : Y              
+botrightreg1                 : AA19      : output : 2.5 V             :         : 4A        : Y              
+toptopreg1                   : AA20      : output : 2.5 V             :         : 4A        : Y              
 VCCIO4A                      : AA21      : power  :                   : 2.5V    : 4A        :                
-midreg1                      : AA22      : output : 2.5 V             :         : 4A        : Y              
+midreg2                      : AA22      : output : 2.5 V             :         : 4A        : Y              
 GND                          : AB1       : gnd    :                   :         :           :                
 GND                          : AB2       : gnd    :                   :         :           :                
 AS_DATA1, DATA1              : AB3       :        :                   :         : 3A        :                
@@ -136,9 +136,9 @@ GND                          : AB14      : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB15      :        :                   :         : 4A        :                
 VREFB4AN0                    : AB16      : power  :                   :         : 4A        :                
 toprightmem0                 : AB17      : output : 2.5 V             :         : 4A        : Y              
-botleftreg2                  : AB18      : output : 2.5 V             :         : 4A        : Y              
+botleftreg1                  : AB18      : output : 2.5 V             :         : 4A        : Y              
 GND                          : AB19      : gnd    :                   :         :           :                
-toprightreg2                 : AB20      : output : 2.5 V             :         : 4A        : Y              
+toprightreg1                 : AB20      : output : 2.5 V             :         : 4A        : Y              
 midmem0                      : AB21      : output : 2.5 V             :         : 4A        : Y              
 topleftmem0                  : AB22      : output : 2.5 V             :         : 4A        : Y              
 GND                          : B1        : gnd    :                   :         :           :                
@@ -339,8 +339,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : K19       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : K20       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K21       :        :                   :         : 5B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K22       :        :                   :         : 5B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L1        :        :                   :         : 2A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L2        :        :                   :         : 2A        :                
+jumpled                      : L1        : output : 2.5 V             :         : 2A        : Y              
+clkled                       : L2        : output : 2.5 V             :         : 2A        : Y              
 GND                          : L3        : gnd    :                   :         :           :                
 VCC                          : L4        : power  :                   : 1.1V    :           :                
 GND                          : L5        : gnd    :                   :         :           :                
@@ -491,8 +491,8 @@ botleftmem1                  : U17       : output : 2.5 V             :         
 VCCA_FPLL                    : U18       : power  :                   : 2.5V    :           :                
 VCCIO4A                      : U19       : power  :                   : 2.5V    : 4A        :                
 toptopmem2                   : U20       : output : 2.5 V             :         : 4A        : Y              
-toptopreg1                   : U21       : output : 2.5 V             :         : 4A        : Y              
-midreg2                      : U22       : output : 2.5 V             :         : 4A        : Y              
+toptopreg2                   : U21       : output : 2.5 V             :         : 4A        : Y              
+midreg1                      : U22       : output : 2.5 V             :         : 4A        : Y              
 GND                          : V1        : gnd    :                   :         :           :                
 GND                          : V2        : gnd    :                   :         :           :                
 DCLK                         : V3        :        :                   :         : 3A        :                
@@ -513,7 +513,7 @@ GND                          : V17       : gnd    :                   :         
 topleftmem1                  : V18       : output : 2.5 V             :         : 4A        : Y              
 midmem1                      : V19       : output : 2.5 V             :         : 4A        : Y              
 botrightmem2                 : V20       : output : 2.5 V             :         : 4A        : Y              
-toprightreg1                 : V21       : output : 2.5 V             :         : 4A        : Y              
+toprightreg2                 : V21       : output : 2.5 V             :         : 4A        : Y              
 GND                          : V22       : gnd    :                   :         :           :                
 VREFB2AN0                    : W1        : power  :                   :         : 2A        :                
 counter2                     : W2        : output : 2.5 V             :         : 2A        : Y              
@@ -535,8 +535,8 @@ VCCPD3B4A                    : W17       : power  :                   : 2.5V    
 VCC_AUX                      : W18       : power  :                   : 2.5V    :           :                
 midmem3                      : W19       : output : 2.5 V             :         : 4A        : Y              
 VCCIO4A                      : W20       : power  :                   : 2.5V    : 4A        :                
-botbotreg1                   : W21       : output : 2.5 V             :         : 4A        : Y              
-botrightreg1                 : W22       : output : 2.5 V             :         : 4A        : Y              
+botbotreg2                   : W21       : output : 2.5 V             :         : 4A        : Y              
+botrightreg2                 : W22       : output : 2.5 V             :         : 4A        : Y              
 GND                          : Y1        : gnd    :                   :         :           :                
 GND                          : Y2        : gnd    :                   :         :           :                
 counter3                     : Y3        : output : 2.5 V             :         : 2A        : Y              
@@ -557,5 +557,5 @@ botrightmem1                 : Y17       : output : 2.5 V             :         
 GND                          : Y18       : gnd    :                   :         :           :                
 toptopmem0                   : Y19       : output : 2.5 V             :         : 4A        : Y              
 toprightmem2                 : Y20       : output : 2.5 V             :         : 4A        : Y              
-topleftreg1                  : Y21       : output : 2.5 V             :         : 4A        : Y              
-botleftreg1                  : Y22       : output : 2.5 V             :         : 4A        : Y              
+topleftreg2                  : Y21       : output : 2.5 V             :         : 4A        : Y              
+botleftreg2                  : Y22       : output : 2.5 V             :         : 4A        : Y              
