@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tricolor
-Tue Sep 26 16:08:21 2023
+Tue Oct  3 13:12:29 2023
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -48,7 +48,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Sep 26 16:08:21 2023       ;
+; Analysis & Synthesis Status     ; Successful - Tue Oct  3 13:12:29 2023       ;
 ; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                   ; tricolor                                    ;
 ; Top-level Entity Name           ; tricolor                                    ;
@@ -171,40 +171,40 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                    ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                    ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
-; tricolor.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/tricolor.bdf                       ;         ;
-; rom.vhd                          ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/11814183/Documents/GitHub/Processador/rom/dependencies/rom.vhd                         ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altsyncram.tdf                           ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/stratix_ram_block.inc                    ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/lpm_mux.inc                              ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/lpm_decode.inc                           ;         ;
-; aglobal211.inc                   ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/aglobal211.inc                           ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/a_rdenreg.inc                            ;         ;
-; altrom.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altrom.inc                               ;         ;
-; altram.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altram.inc                               ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altdpram.inc                             ;         ;
-; db/altsyncram_i224.tdf           ; yes             ; Auto-Generated Megafunction              ; C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf             ;         ;
-; ../Mem01.mif                     ; yes             ; Auto-Found Memory Initialization File    ; C:/Users/11814183/Documents/GitHub/Processador/main/Mem01.mif                                   ;         ;
-; contador.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/contador/dependencies/contador.bdf               ;         ;
-; jump.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/contador/dependencies/jump.bdf                   ;         ;
-; unidadecontrole.bdf              ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/unidadecontrole/dependencies/unidadecontrole.bdf ;         ;
-; extract.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/unidadecontrole/dependencies/extract.bdf         ;         ;
-; muxbarula.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/unidadecontrole/dependencies/muxbarula.bdf       ;         ;
-; registrador.bdf                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/registrador/dependencies/registrador.bdf         ;         ;
-; mux2x1.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/registrador/dependencies/mux2x1.bdf              ;         ;
-; ula.bdf                          ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/ula.bdf                         ;         ;
-; aula06.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula06.bdf                      ;         ;
-; aula05.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula05.bdf                      ;         ;
-; aula08.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula08.bdf                      ;         ;
-; aula07.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula07.bdf                      ;         ;
-; aula10.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula10.bdf                      ;         ;
-; aula11.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula11.bdf                      ;         ;
-; mux2.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/mux2.bdf                        ;         ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                               ;
++-------------------------------------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                            ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                    ; Library ;
++-------------------------------------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
+; tricolor.bdf                                                ; yes             ; User Block Diagram/Schematic File        ; C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/tricolor.bdf                       ;         ;
+; rom.vhd                                                     ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/11814183/Documents/GitHub/Processador/rom/dependencies/rom.vhd                         ;         ;
+; altsyncram.tdf                                              ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altsyncram.tdf                           ;         ;
+; stratix_ram_block.inc                                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/stratix_ram_block.inc                    ;         ;
+; lpm_mux.inc                                                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/lpm_mux.inc                              ;         ;
+; lpm_decode.inc                                              ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/lpm_decode.inc                           ;         ;
+; aglobal211.inc                                              ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/aglobal211.inc                           ;         ;
+; a_rdenreg.inc                                               ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/a_rdenreg.inc                            ;         ;
+; altrom.inc                                                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altrom.inc                               ;         ;
+; altram.inc                                                  ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altram.inc                               ;         ;
+; altdpram.inc                                                ; yes             ; Megafunction                             ; c:/intelfpga_lite/21.1/quartus/libraries/megafunctions/altdpram.inc                             ;         ;
+; db/altsyncram_i224.tdf                                      ; yes             ; Auto-Generated Megafunction              ; C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf             ;         ;
+; /users/11814183/documents/github/processador/main/mem01.mif ; yes             ; Auto-Found Memory Initialization File    ; /users/11814183/documents/github/processador/main/mem01.mif                                     ;         ;
+; contador.bdf                                                ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/contador/dependencies/contador.bdf               ;         ;
+; jump.bdf                                                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/contador/dependencies/jump.bdf                   ;         ;
+; unidadecontrole.bdf                                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/unidadecontrole/dependencies/unidadecontrole.bdf ;         ;
+; extract.bdf                                                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/unidadecontrole/dependencies/extract.bdf         ;         ;
+; muxbarula.bdf                                               ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/unidadecontrole/dependencies/muxbarula.bdf       ;         ;
+; registrador.bdf                                             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/registrador/dependencies/registrador.bdf         ;         ;
+; mux2x1.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/registrador/dependencies/mux2x1.bdf              ;         ;
+; ula.bdf                                                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/ula.bdf                         ;         ;
+; aula06.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula06.bdf                      ;         ;
+; aula05.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula05.bdf                      ;         ;
+; aula08.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula08.bdf                      ;         ;
+; aula07.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula07.bdf                      ;         ;
+; aula10.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula10.bdf                      ;         ;
+; aula11.bdf                                                  ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/aula11.bdf                      ;         ;
+; mux2.bdf                                                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/11814183/Documents/GitHub/Processador/ula/dependencies/mux2.bdf                        ;         ;
++-------------------------------------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -403,7 +403,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Tue Sep 26 16:08:12 2023
+    Info: Processing started: Tue Oct  3 13:12:20 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tricolor -c tricolor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -517,24 +517,24 @@ Warning (12125): Using design file /users/11814183/documents/github/processador/
 Info (12128): Elaborating entity "mux2" for hierarchy "ula:inst5|aula11:inst4|mux2:inst29"
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[0]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 35
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[1]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 57
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[2]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 79
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[3]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 101
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[4]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 123
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[5]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 145
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[6]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 167
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[7]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 189
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[8]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 211
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[9]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 233
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[10]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 255
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[11]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 277
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[4]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 123
-        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[5]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 145
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[12]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 299
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[13]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 321
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[14]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 343
         Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[15]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 365
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[0]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 35
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[1]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 57
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[2]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 79
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[3]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 101
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[10]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 255
+        Warning (14320): Synthesized away node "rom:inst|altsyncram:altsyncram_component|altsyncram_i224:auto_generated|q_a[11]" File: C:/Users/11814183/Documents/GitHub/Processador/main/tricolor/db/altsyncram_i224.tdf Line: 277
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -545,8 +545,8 @@ Info (21057): Implemented 2 device resources after synthesis - the final resourc
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 0 output pins
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 40 warnings
-    Info: Peak virtual memory: 4877 megabytes
-    Info: Processing ended: Tue Sep 26 16:08:21 2023
+    Info: Peak virtual memory: 4870 megabytes
+    Info: Processing ended: Tue Oct  3 13:12:29 2023
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:18
 
