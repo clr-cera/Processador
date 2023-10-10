@@ -1,5 +1,5 @@
 Archive Project report for tricolor
-Tue Oct  3 15:06:13 2023
+Tue Oct 10 14:41:27 2023
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Tue Oct  3 15:06:13 2023 ;
+; Archive Project Status ; Successful - Tue Oct 10 14:41:27 2023 ;
 ; Revision Name          ; tricolor                              ;
 ; Top-level Entity Name  ; tricolor                              ;
 ; Family                 ; Cyclone V                             ;
@@ -54,14 +54,14 @@ Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory C:/Users/14559479/Documents/GitHub/Processador/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor-mem1.qar'
+Info: Generated archive 'C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor-mem02.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'tricolor.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/21.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4833 megabytes
-    Info: Processing ended: Tue Oct  3 15:06:13 2023
+    Info: Peak virtual memory: 4842 megabytes
+    Info: Processing ended: Tue Oct 10 14:41:27 2023
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -71,7 +71,7 @@ Info: Quartus Prime Shell was successful. 0 errors, 1 warning
 +-------------------------------------------------------------------------------------------------+
 ; File Name                                                                                       ;
 +-------------------------------------------------------------------------------------------------+
-; /users/14559479/documents/github/processador/main/mem01.mif                                     ;
+; /users/14559479/documents/github/processador/rom/mem02.mif                                      ;
 ; c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf                                    ;
 ; C:/Users/14559479/Documents/GitHub/Processador/contador/dependencies/contador.bdf               ;
 ; C:/Users/14559479/Documents/GitHub/Processador/contador/dependencies/jump.bdf                   ;
@@ -79,7 +79,7 @@ Info: Quartus Prime Shell was successful. 0 errors, 1 warning
 ; C:/Users/14559479/Documents/GitHub/Processador/display/aula04.bdf                               ;
 ; C:/Users/14559479/Documents/GitHub/Processador/registrador/dependencies/mux2x1.bdf              ;
 ; C:/Users/14559479/Documents/GitHub/Processador/registrador/dependencies/registrador.bdf         ;
-; C:/Users/14559479/Documents/GitHub/Processador/rom/dependencies/rom.vhd                         ;
+; C:/Users/14559479/Documents/GitHub/Processador/rom/dependencies/rom2.v                          ;
 ; C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula05.bdf                      ;
 ; C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula06.bdf                      ;
 ; C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula07.bdf                      ;

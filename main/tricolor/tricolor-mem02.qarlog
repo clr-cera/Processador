@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor-mem02.qarlog
+
+Archive:	C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor-mem02.qar
+Date:		Tue Oct 10 14:41:27 2023
+Quartus Prime		21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/14559479/Documents/GitHub/Processador/contador/dependencies/contador.bdf
+C:/Users/14559479/Documents/GitHub/Processador/contador/dependencies/jump.bdf
+C:/Users/14559479/Documents/GitHub/Processador/debouncer/debouncer.v
+C:/Users/14559479/Documents/GitHub/Processador/display/aula04.bdf
+C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor.bdf
+C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor.qpf
+C:/Users/14559479/Documents/GitHub/Processador/main/tricolor/tricolor.qsf
+C:/Users/14559479/Documents/GitHub/Processador/registrador/dependencies/mux2x1.bdf
+C:/Users/14559479/Documents/GitHub/Processador/registrador/dependencies/registrador.bdf
+C:/Users/14559479/Documents/GitHub/Processador/rom/dependencies/rom2.v
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula05.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula06.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula07.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula08.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula10.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/aula11.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/mux2.bdf
+C:/Users/14559479/Documents/GitHub/Processador/ula/dependencies/ula.bdf
+C:/Users/14559479/Documents/GitHub/Processador/unidadecontrole/dependencies/extract.bdf
+C:/Users/14559479/Documents/GitHub/Processador/unidadecontrole/dependencies/muxbarula.bdf
+C:/Users/14559479/Documents/GitHub/Processador/unidadecontrole/dependencies/unidadecontrole.bdf
+C:/users/14559479/documents/github/processador/rom/mem02.mif
+c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

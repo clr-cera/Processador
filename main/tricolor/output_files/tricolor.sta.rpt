@@ -1,5 +1,5 @@
 Timing Analyzer report for tricolor
-Tue Oct  3 15:38:52 2023
+Tue Oct 10 14:37:34 2023
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -102,14 +102,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.08        ;
+; Average used               ; 1.09        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.7%      ;
-;     Processor 3            ;   2.6%      ;
-;     Processor 4            ;   2.6%      ;
+;     Processor 2            ;   3.0%      ;
+;     Processor 3            ;   2.8%      ;
+;     Processor 4            ;   2.8%      ;
 +----------------------------+-------------+
 
 
@@ -128,8 +128,8 @@ https://fpgasoftware.intel.com/eula.
 +------------+-----------------+--------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name               ; Note ;
 +------------+-----------------+--------------------------+------+
-; 70.32 MHz  ; 70.32 MHz       ; debouncer:inst15|out_key ;      ;
-; 180.41 MHz ; 180.41 MHz      ; CLKPLACA                 ;      ;
+; 73.9 MHz   ; 73.9 MHz        ; debouncer:inst15|out_key ;      ;
+; 187.02 MHz ; 187.02 MHz      ; CLKPLACA                 ;      ;
 +------------+-----------------+--------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -145,8 +145,8 @@ HTML report is unavailable in plain text report export.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -6.610 ; -113.198      ;
-; CLKPLACA                 ; -4.543 ; -35.943       ;
+; debouncer:inst15|out_key ; -6.266 ; -116.511      ;
+; CLKPLACA                 ; -4.347 ; -37.315       ;
 +--------------------------+--------+---------------+
 
 
@@ -155,8 +155,8 @@ HTML report is unavailable in plain text report export.
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; CLKPLACA                 ; 0.427 ; 0.000         ;
-; debouncer:inst15|out_key ; 0.656 ; 0.000         ;
+; CLKPLACA                 ; 0.426 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.479 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -165,7 +165,7 @@ HTML report is unavailable in plain text report export.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -5.022 ; -69.606       ;
+; debouncer:inst15|out_key ; -5.540 ; -68.535       ;
 +--------------------------+--------+---------------+
 
 
@@ -174,7 +174,7 @@ HTML report is unavailable in plain text report export.
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; debouncer:inst15|out_key ; 1.973 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.957 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -183,8 +183,8 @@ HTML report is unavailable in plain text report export.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -2.636 ; -50.875       ;
-; CLKPLACA                 ; -0.538 ; -14.117       ;
+; debouncer:inst15|out_key ; -2.636 ; -52.086       ;
+; CLKPLACA                 ; -0.538 ; -14.112       ;
 +--------------------------+--------+---------------+
 
 
@@ -199,8 +199,8 @@ No synchronizer chains to report.
 +------------+-----------------+--------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name               ; Note ;
 +------------+-----------------+--------------------------+------+
-; 68.94 MHz  ; 68.94 MHz       ; debouncer:inst15|out_key ;      ;
-; 176.24 MHz ; 176.24 MHz      ; CLKPLACA                 ;      ;
+; 71.99 MHz  ; 71.99 MHz       ; debouncer:inst15|out_key ;      ;
+; 182.75 MHz ; 182.75 MHz      ; CLKPLACA                 ;      ;
 +------------+-----------------+--------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -210,8 +210,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -6.753 ; -114.585      ;
-; CLKPLACA                 ; -4.674 ; -36.114       ;
+; debouncer:inst15|out_key ; -6.445 ; -118.379      ;
+; CLKPLACA                 ; -4.472 ; -36.024       ;
 +--------------------------+--------+---------------+
 
 
@@ -221,7 +221,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
 ; CLKPLACA                 ; 0.438 ; 0.000         ;
-; debouncer:inst15|out_key ; 0.609 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.551 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -230,7 +230,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -5.102 ; -70.021       ;
+; debouncer:inst15|out_key ; -5.607 ; -69.428       ;
 +--------------------------+--------+---------------+
 
 
@@ -239,7 +239,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; debouncer:inst15|out_key ; 2.026 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.960 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -248,8 +248,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -2.636 ; -50.812       ;
-; CLKPLACA                 ; -0.538 ; -14.292       ;
+; debouncer:inst15|out_key ; -2.636 ; -51.850       ;
+; CLKPLACA                 ; -0.538 ; -14.293       ;
 +--------------------------+--------+---------------+
 
 
@@ -264,8 +264,8 @@ No synchronizer chains to report.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -3.286 ; -54.056       ;
-; CLKPLACA                 ; -2.749 ; -8.869        ;
+; debouncer:inst15|out_key ; -3.033 ; -55.890       ;
+; CLKPLACA                 ; -2.540 ; -11.724       ;
 +--------------------------+--------+---------------+
 
 
@@ -274,8 +274,8 @@ No synchronizer chains to report.
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; CLKPLACA                 ; 0.198 ; 0.000         ;
-; debouncer:inst15|out_key ; 0.342 ; 0.000         ;
+; CLKPLACA                 ; 0.196 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.214 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -284,7 +284,7 @@ No synchronizer chains to report.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -2.413 ; -32.970       ;
+; debouncer:inst15|out_key ; -2.673 ; -32.175       ;
 +--------------------------+--------+---------------+
 
 
@@ -293,7 +293,7 @@ No synchronizer chains to report.
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; debouncer:inst15|out_key ; 1.024 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.369 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -302,8 +302,8 @@ No synchronizer chains to report.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -2.174 ; -30.962       ;
-; CLKPLACA                 ; -0.325 ; -1.938        ;
+; debouncer:inst15|out_key ; -2.174 ; -31.209       ;
+; CLKPLACA                 ; -0.309 ; -1.924        ;
 +--------------------------+--------+---------------+
 
 
@@ -318,8 +318,8 @@ No synchronizer chains to report.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -3.090 ; -50.725       ;
-; CLKPLACA                 ; -2.312 ; -6.944        ;
+; debouncer:inst15|out_key ; -2.860 ; -52.464       ;
+; CLKPLACA                 ; -2.110 ; -8.998        ;
 +--------------------------+--------+---------------+
 
 
@@ -328,8 +328,8 @@ No synchronizer chains to report.
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; CLKPLACA                 ; 0.186 ; 0.000         ;
-; debouncer:inst15|out_key ; 0.289 ; 0.000         ;
+; CLKPLACA                 ; 0.185 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.201 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -338,7 +338,7 @@ No synchronizer chains to report.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -2.261 ; -31.479       ;
+; debouncer:inst15|out_key ; -2.534 ; -30.782       ;
 +--------------------------+--------+---------------+
 
 
@@ -347,7 +347,7 @@ No synchronizer chains to report.
 +--------------------------+-------+---------------+
 ; Clock                    ; Slack ; End Point TNS ;
 +--------------------------+-------+---------------+
-; debouncer:inst15|out_key ; 1.013 ; 0.000         ;
+; debouncer:inst15|out_key ; 0.366 ; 0.000         ;
 +--------------------------+-------+---------------+
 
 
@@ -356,8 +356,8 @@ No synchronizer chains to report.
 +--------------------------+--------+---------------+
 ; Clock                    ; Slack  ; End Point TNS ;
 +--------------------------+--------+---------------+
-; debouncer:inst15|out_key ; -2.174 ; -30.886       ;
-; CLKPLACA                 ; -0.335 ; -1.981        ;
+; debouncer:inst15|out_key ; -2.174 ; -31.026       ;
+; CLKPLACA                 ; -0.306 ; -1.937        ;
 +--------------------------+--------+---------------+
 
 
@@ -372,12 +372,12 @@ No synchronizer chains to report.
 +---------------------------+----------+-------+----------+---------+---------------------+
 ; Clock                     ; Setup    ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +---------------------------+----------+-------+----------+---------+---------------------+
-; Worst-case Slack          ; -6.753   ; 0.186 ; -5.102   ; 1.013   ; -2.636              ;
-;  CLKPLACA                 ; -4.674   ; 0.186 ; N/A      ; N/A     ; -0.538              ;
-;  debouncer:inst15|out_key ; -6.753   ; 0.289 ; -5.102   ; 1.013   ; -2.636              ;
-; Design-wide TNS           ; -150.699 ; 0.0   ; -70.021  ; 0.0     ; -65.104             ;
-;  CLKPLACA                 ; -36.114  ; 0.000 ; N/A      ; N/A     ; -14.292             ;
-;  debouncer:inst15|out_key ; -114.585 ; 0.000 ; -70.021  ; 0.000   ; -50.875             ;
+; Worst-case Slack          ; -6.445   ; 0.185 ; -5.607   ; 0.366   ; -2.636              ;
+;  CLKPLACA                 ; -4.472   ; 0.185 ; N/A      ; N/A     ; -0.538              ;
+;  debouncer:inst15|out_key ; -6.445   ; 0.201 ; -5.607   ; 0.366   ; -2.636              ;
+; Design-wide TNS           ; -154.403 ; 0.0   ; -69.428  ; 0.0     ; -66.198             ;
+;  CLKPLACA                 ; -37.315  ; 0.000 ; N/A      ; N/A     ; -14.293             ;
+;  debouncer:inst15|out_key ; -118.379 ; 0.000 ; -69.428  ; 0.000   ; -52.086             ;
 +---------------------------+----------+-------+----------+---------+---------------------+
 
 
@@ -699,7 +699,7 @@ No synchronizer chains to report.
 +--------------------------+--------------------------+----------+----------+----------+----------+
 ; CLKPLACA                 ; CLKPLACA                 ; 442      ; 0        ; 0        ; 0        ;
 ; debouncer:inst15|out_key ; CLKPLACA                 ; 1        ; 1        ; 0        ; 0        ;
-; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 24       ; 8        ; 270      ; 100      ;
+; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 32       ; 16       ; 322      ; 152      ;
 +--------------------------+--------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -711,7 +711,7 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +--------------------------+--------------------------+----------+----------+----------+----------+
 ; CLKPLACA                 ; CLKPLACA                 ; 442      ; 0        ; 0        ; 0        ;
 ; debouncer:inst15|out_key ; CLKPLACA                 ; 1        ; 1        ; 0        ; 0        ;
-; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 24       ; 8        ; 270      ; 100      ;
+; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 32       ; 16       ; 322      ; 152      ;
 +--------------------------+--------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -721,7 +721,7 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +--------------------------+--------------------------+----------+----------+----------+----------+
 ; From Clock               ; To Clock                 ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +--------------------------+--------------------------+----------+----------+----------+----------+
-; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 0        ; 0        ; 48       ; 0        ;
+; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 0        ; 0        ; 56       ; 8        ;
 +--------------------------+--------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -731,7 +731,7 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +--------------------------+--------------------------+----------+----------+----------+----------+
 ; From Clock               ; To Clock                 ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +--------------------------+--------------------------+----------+----------+----------+----------+
-; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 0        ; 0        ; 48       ; 0        ;
+; debouncer:inst15|out_key ; debouncer:inst15|out_key ; 0        ; 0        ; 56       ; 8        ;
 +--------------------------+--------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -758,7 +758,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Unconstrained Input Ports       ; 2     ; 2    ;
 ; Unconstrained Input Port Paths  ; 46    ; 46   ;
 ; Unconstrained Output Ports      ; 52    ; 52   ;
-; Unconstrained Output Port Paths ; 106   ; 106  ;
+; Unconstrained Output Port Paths ; 110   ; 110  ;
 +---------------------------------+-------+------+
 
 
@@ -918,7 +918,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Tue Oct  3 15:38:47 2023
+    Info: Processing started: Tue Oct 10 14:37:29 2023
 Info: Command: quartus_sta tricolor -c tricolor
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -937,119 +937,119 @@ Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -6.610
+Info (332146): Worst-case setup slack is -6.266
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -6.610            -113.198 debouncer:inst15|out_key 
-    Info (332119):    -4.543             -35.943 CLKPLACA 
-Info (332146): Worst-case hold slack is 0.427
+    Info (332119):    -6.266            -116.511 debouncer:inst15|out_key 
+    Info (332119):    -4.347             -37.315 CLKPLACA 
+Info (332146): Worst-case hold slack is 0.426
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.427               0.000 CLKPLACA 
-    Info (332119):     0.656               0.000 debouncer:inst15|out_key 
-Info (332146): Worst-case recovery slack is -5.022
+    Info (332119):     0.426               0.000 CLKPLACA 
+    Info (332119):     0.479               0.000 debouncer:inst15|out_key 
+Info (332146): Worst-case recovery slack is -5.540
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -5.022             -69.606 debouncer:inst15|out_key 
-Info (332146): Worst-case removal slack is 1.973
+    Info (332119):    -5.540             -68.535 debouncer:inst15|out_key 
+Info (332146): Worst-case removal slack is 0.957
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.973               0.000 debouncer:inst15|out_key 
+    Info (332119):     0.957               0.000 debouncer:inst15|out_key 
 Info (332146): Worst-case minimum pulse width slack is -2.636
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.636             -50.875 debouncer:inst15|out_key 
-    Info (332119):    -0.538             -14.117 CLKPLACA 
+    Info (332119):    -2.636             -52.086 debouncer:inst15|out_key 
+    Info (332119):    -0.538             -14.112 CLKPLACA 
 Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -6.753
+Info (332146): Worst-case setup slack is -6.445
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -6.753            -114.585 debouncer:inst15|out_key 
-    Info (332119):    -4.674             -36.114 CLKPLACA 
+    Info (332119):    -6.445            -118.379 debouncer:inst15|out_key 
+    Info (332119):    -4.472             -36.024 CLKPLACA 
 Info (332146): Worst-case hold slack is 0.438
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.438               0.000 CLKPLACA 
-    Info (332119):     0.609               0.000 debouncer:inst15|out_key 
-Info (332146): Worst-case recovery slack is -5.102
+    Info (332119):     0.551               0.000 debouncer:inst15|out_key 
+Info (332146): Worst-case recovery slack is -5.607
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -5.102             -70.021 debouncer:inst15|out_key 
-Info (332146): Worst-case removal slack is 2.026
+    Info (332119):    -5.607             -69.428 debouncer:inst15|out_key 
+Info (332146): Worst-case removal slack is 0.960
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     2.026               0.000 debouncer:inst15|out_key 
+    Info (332119):     0.960               0.000 debouncer:inst15|out_key 
 Info (332146): Worst-case minimum pulse width slack is -2.636
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.636             -50.812 debouncer:inst15|out_key 
-    Info (332119):    -0.538             -14.292 CLKPLACA 
+    Info (332119):    -2.636             -51.850 debouncer:inst15|out_key 
+    Info (332119):    -0.538             -14.293 CLKPLACA 
 Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.286
+Info (332146): Worst-case setup slack is -3.033
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.286             -54.056 debouncer:inst15|out_key 
-    Info (332119):    -2.749              -8.869 CLKPLACA 
-Info (332146): Worst-case hold slack is 0.198
+    Info (332119):    -3.033             -55.890 debouncer:inst15|out_key 
+    Info (332119):    -2.540             -11.724 CLKPLACA 
+Info (332146): Worst-case hold slack is 0.196
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.198               0.000 CLKPLACA 
-    Info (332119):     0.342               0.000 debouncer:inst15|out_key 
-Info (332146): Worst-case recovery slack is -2.413
+    Info (332119):     0.196               0.000 CLKPLACA 
+    Info (332119):     0.214               0.000 debouncer:inst15|out_key 
+Info (332146): Worst-case recovery slack is -2.673
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.413             -32.970 debouncer:inst15|out_key 
-Info (332146): Worst-case removal slack is 1.024
+    Info (332119):    -2.673             -32.175 debouncer:inst15|out_key 
+Info (332146): Worst-case removal slack is 0.369
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.024               0.000 debouncer:inst15|out_key 
+    Info (332119):     0.369               0.000 debouncer:inst15|out_key 
 Info (332146): Worst-case minimum pulse width slack is -2.174
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.174             -30.962 debouncer:inst15|out_key 
-    Info (332119):    -0.325              -1.938 CLKPLACA 
+    Info (332119):    -2.174             -31.209 debouncer:inst15|out_key 
+    Info (332119):    -0.309              -1.924 CLKPLACA 
 Info: Analyzing Fast 1100mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.090
+Info (332146): Worst-case setup slack is -2.860
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.090             -50.725 debouncer:inst15|out_key 
-    Info (332119):    -2.312              -6.944 CLKPLACA 
-Info (332146): Worst-case hold slack is 0.186
+    Info (332119):    -2.860             -52.464 debouncer:inst15|out_key 
+    Info (332119):    -2.110              -8.998 CLKPLACA 
+Info (332146): Worst-case hold slack is 0.185
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.186               0.000 CLKPLACA 
-    Info (332119):     0.289               0.000 debouncer:inst15|out_key 
-Info (332146): Worst-case recovery slack is -2.261
+    Info (332119):     0.185               0.000 CLKPLACA 
+    Info (332119):     0.201               0.000 debouncer:inst15|out_key 
+Info (332146): Worst-case recovery slack is -2.534
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.261             -31.479 debouncer:inst15|out_key 
-Info (332146): Worst-case removal slack is 1.013
+    Info (332119):    -2.534             -30.782 debouncer:inst15|out_key 
+Info (332146): Worst-case removal slack is 0.366
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.013               0.000 debouncer:inst15|out_key 
+    Info (332119):     0.366               0.000 debouncer:inst15|out_key 
 Info (332146): Worst-case minimum pulse width slack is -2.174
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.174             -30.886 debouncer:inst15|out_key 
-    Info (332119):    -0.335              -1.981 CLKPLACA 
+    Info (332119):    -2.174             -31.026 debouncer:inst15|out_key 
+    Info (332119):    -0.306              -1.937 CLKPLACA 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 7 warnings
     Info: Peak virtual memory: 5098 megabytes
-    Info: Processing ended: Tue Oct  3 15:38:52 2023
+    Info: Processing ended: Tue Oct 10 14:37:34 2023
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
