@@ -1,11 +1,11 @@
-# Processador
-Processor project for Prática em Sistemas Digitais - USP
+# 🖥️ Processador
+Projeto da construção de um processador para a disciplina Sistemas Digitais - USP
 
 Código da placa Cyclone 5: 5CEBA4F23C7 
 
 [Pinagem](https://docs.google.com/spreadsheets/d/16_3M6EfprTSyudOf7EVwMMQDHvr_pVTEgrSLr4vXK0w/edit?usp=drive_link)
 
-### Authors
+### 🖊️ Autores
 
 | Name                                                       | USP number |
 | :--------------------------------------------------------- | :--------- |
